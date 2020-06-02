@@ -20,17 +20,18 @@
 
                 <div class="container">
                     <p class="companies_title"> <?php echo get_field('company_title'); ?> </p>
-
-                    <div class="companies_images-wrapper">
-                        <?php foreach( get_cfc_meta( 'companies_image' ) as $key => $value ){?>
-                            <div class="companies_image">
-                                <img alt="" src="<?php the_cfc_field( 'companies_image','image', false, $key ); ?>"/>
-                            </div>
-                        <?php } ?>
+                    <div class="companies_slider-wrapper">
+                        <div class="companies_slider left"><img src="<?php echo get_stylesheet_directory_uri().'/images/nav_left.svg'; ?>" alt=""></div>
+                        <div class="companies_images-wrapper">
+                            <?php foreach( get_cfc_meta( 'companies_image' ) as $key => $value ){?>
+                                <div class="companies_image">
+                                    <img alt="" src="<?php the_cfc_field( 'companies_image','image', false, $key ); ?>"/>
+                                </div>
+                            <?php } ?>
+                        </div>
+                        <div class="companies_slider right"><img src="<?php echo get_stylesheet_directory_uri().'/images/nav_right.svg'; ?>" alt=""></div>
                     </div>
-
                 </div>
-
             </div>
             <div class="network-block">
                 <div class="container">
@@ -49,17 +50,31 @@
             <div class="services">
                 <div class="container">
                     <p class="services_title"> <?php echo get_field('service_title'); ?> </p>
-                    <div class="service-wrapper">
-                        <?php foreach( get_cfc_meta( 'services' ) as $key => $value ){?>
-                            <div class="service-block">
-                                <img class="service-block_image" src="<?php the_cfc_field( 'services','services_image', false, $key ); ?>" alt="">
-                                <div class="service-block_text">
-                                    <p class="service-block_title"><?php the_cfc_field( 'services','services_title', false, $key ); ?></p>
+
+                    <div class="services_slider-wrapper">
+                        <div class="services_slider left"><img src="<?php echo get_stylesheet_directory_uri().'/images/nav left s.svg'; ?>" alt=""></div>
+                        <div class="service-wrapper">
+                            <?php foreach( get_cfc_meta( 'services' ) as $key => $value ){?>
+                                <div class="service-block">
+                                    <img class="service-block_image" src="<?php the_cfc_field( 'services','services_image', false, $key ); ?>" alt="">
+                                    <div class="service-block_text">
+                                        <p class="service-block_title"><?php the_cfc_field( 'services','services_title', false, $key ); ?></p>
+                                        <p class="service-block_description"><?php the_cfc_field( 'services','services_description', false, $key ); ?></p>
+                                    </div>
+                                </div>
+
+                                <div class="service-block-responsive">
+                                    <div class="service-block_text">
+                                        <img class="service-block_image" src="<?php the_cfc_field( 'services','services_image', false, $key ); ?>" alt="">
+                                        <p class="service-block_title"><?php the_cfc_field( 'services','services_title', false, $key ); ?></p>
+                                    </div>
                                     <p class="service-block_description"><?php the_cfc_field( 'services','services_description', false, $key ); ?></p>
                                 </div>
-                            </div>
-                        <?php } ?>
+                            <?php } ?>
+                        </div>
+                        <div class="services_slider right"><img src="<?php echo get_stylesheet_directory_uri().'/images/nav right s.svg'; ?>" alt=""></div>
                     </div>
+
                     <p class="services_read-more">
                         <?php if( have_rows('services_read_more') ): while ( have_rows('services_read_more') ) : the_row(); ?>
                             <a href="/services"><?php echo get_sub_field('text'); ?></a>

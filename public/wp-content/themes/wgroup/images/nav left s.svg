@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="29px" viewBox="0 0 16 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>22FFCEE9-74BC-49D0-91A3-06B74139AF6C</title>
+    <g id="wgroup_mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="wgroup-HP-mobile" transform="translate(-16.000000, -1609.000000)" fill="#FFFFFF">
+            <g id="services" transform="translate(0.000000, 1248.000000)">
+                <g id="navigation" transform="translate(16.000000, 358.000000)">
+                    <g id="nav-left" transform="translate(8.000000, 17.311475) rotate(-180.000000) translate(-8.000000, -17.311475) translate(0.000000, 3.311475)">
+                        <polygon id="Fill-1" points="1.61649265 27.6557377 0 26.085566 11.7664431 14.6551825 0 3.2259094 1.61649265 1.6557377 15 14.6551825"></polygon>
+                        <path d="M2.33524819,0.655737705 L0,2.96228676 L11.3295036,14.155194 L0,25.3491886 L2.33524819,27.6557377 L16,14.155194 L2.33524819,0.655737705 Z M1.55646521,25.3491886 L12.8865192,14.1557377 L1.55646521,2.96228676 L2.33524819,2.19343708 L14.4435348,14.1557377 L2.33524819,26.1180383 L1.55646521,25.3491886 Z" id="Fill-2"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

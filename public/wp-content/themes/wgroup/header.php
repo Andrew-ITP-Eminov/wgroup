@@ -1,6 +1,7 @@
 <html>
 <head>
     <title>Wgroup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <div id="ttr_header" class="header">
@@ -17,6 +18,8 @@
                 <img src="<?php echo get_stylesheet_directory_uri().'/images/arrow-white.svg'; ?>" alt="">
             </a>
         </button>
+        <div class="hamburger"></div>
+
     </div>
 </div>
 

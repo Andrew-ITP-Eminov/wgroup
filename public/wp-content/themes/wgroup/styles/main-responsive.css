@@ -1,0 +1,359 @@
+@media screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+
+    .header_wrapper{
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+    }
+    .header_nav{
+        display: none;
+    }
+    .header_btn{
+        display: none;
+    }
+    .header_logo{
+        width: 145px;
+        margin-left: 34px;
+    }
+    .header_logo .image_logo{
+        width: 115%;
+        padding: 5px 0;
+    }
+    .header_wrapper .hamburger{
+        display: block;
+
+        margin-right: 33px;
+        width: 30px;
+        height: 25px;
+        background-color: red;
+    }
+    .companies{
+        padding: 27px 0 45px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .companies_slider-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 17px;
+
+    }
+    .companies .companies_title{
+        font-size: 26px;
+        line-height: 28px;
+        padding: 0 40px;
+        margin-bottom: 40px;
+    }
+    .companies_images-wrapper{
+        flex-wrap: nowrap;
+        overflow: hidden;
+        margin: 0 10px;
+    }
+    .companies_images-wrapper .companies_image{
+        margin: 0 20px;
+    }
+    .companies_image img{
+        width: 95px;
+    }
+    .companies_slider{
+        display: block;
+    }
+    .network-block{
+        padding: 44px 0 20px;
+    }
+    .network-block .network-block_features{
+        display: block;
+    }
+    .network-block .network-block_title{
+        font-size: 26px;
+        line-height: 42px;
+        margin-bottom: 40px;
+    }
+    .network-block_features .feature{
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-end;
+        margin-bottom: 30px;
+    }
+    .network-block_features .feature .feature_image{
+        width: 50px;
+        margin-right: 36px;
+        padding-bottom: 0
+    }
+    .network-block_features .feature:nth-child(3) .feature_image{
+        width: 25px;
+    }
+    .feature .feature_count{
+        margin-right: 10px;
+    }
+    .feature:nth-child(2) .feature_text{
+        float: left;
+        margin-left: -56px;
+    }
+    .feature:nth-child(2) .feature_count{
+        float: right;
+        margin-left: 40px;
+    }
+    .feature .feature_count, .feature .feature_text{
+        font-size: 28px;
+        font-weight: bold;
+        line-height: 30px;
+        text-align: end;
+        /*margin-top: 15px;*/
+    }
+
+    .services .services_title{
+        width: 80%;
+        margin-left: 34px;
+        font-size: 34px;
+        letter-spacing: 0;
+        line-height: 34px;
+        font-weight: 800;
+    }
+    .service-wrapper{
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+    .service-block{
+        display: block;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    .service-block-responsive{
+        display: block;
+        margin: 0 10px;
+    }
+    .service-block {
+        display: none;
+    }
+    .service-block-responsive .service-block_text{
+        display: flex;
+        align-items: center;
+    }
+    .service-block_description{
+        margin: 0 10px;
+        font-size: 24px;
+        letter-spacing: 0;
+        line-height: 26px;
+        margin-top: 23px;
+    }
+    .service-block_image{
+        margin-right: 24px;
+    }
+    .service-block_title{
+        font-size: 26px;
+        letter-spacing: 0;
+        line-height: 28px;
+    }
+    .services_slider{
+        display: block;
+    }
+    .services_slider-wrapper{
+        display: flex;
+        align-items: center;
+        margin: 0 16px;
+    }
+
+
+
+    /*---nightmare---*/
+    .title-wrapper{
+        cursor: pointer;
+    }
+    .nightmare-info{
+        margin-bottom: 24px;
+        padding-top: 17px;
+
+        box-sizing: border-box;
+        border-top: 1px solid #A0A0A0;
+    }
+    .nightmare-info:first-child{
+        border: none;
+    }
+    .nightmare_title{
+        font-size: 26px;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 31px;
+        margin: 0 34px 10px;
+    }
+    .nightmare_info-wrapper{
+        display: block;
+        margin: 0 34px;
+    }
+    .nightmare-info_title{
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 24px;
+    }
+    .nightmare_info-wrapper .nightmare-info{
+        width: 100%;
+    }
+    .nightmare-info .title-wrapper{
+        margin-bottom: 0;
+        /*transition: all 1s linear;*/
+    }
+
+    /*.nightmare-info .title-wrapper.transform {*/
+    /*    transform: rotate(90deg);*/
+    /*}*/
+
+    .nightmare_info-wrapper .nightmare-info_description{
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: 21px;
+    }
+    .nightmare-info_description{
+        display: none;
+        margin-top: 20px
+    }
+
+    .wconnect{
+        padding: 39px 32px 360px 34px;
+        background-image: url("../images/ipad-mockup-r.png");
+    }
+    .wconnect_info{
+        width: 100%;
+        margin-left: 0;
+    }
+    .wconnect_title-wrapper{
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    .wconnect_title{
+        font-size: 34px;
+        font-weight: 800;
+        letter-spacing: 0;
+        line-height: 34px;
+    }
+    .wconnect_image{
+        margin-top: 5px;
+        margin-right: 10px;
+        width: 75px;
+    }
+    .wconnect_link{
+        color: #0014C2;
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: 26px;
+        font-weight: normal;
+        margin-top: 18px;
+    }
+
+    .stop-start{
+        display: block;
+        margin-top: 45px
+    }
+
+    .stop-start .stop, .stop-start .start{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .stop-start .stop .container{
+        margin: 0 34px 60px 34px;
+    }
+    .stop-start .title{
+        font-size: 34px;
+        font-weight: 800;
+        line-height: 34px;
+    }
+    .stop .description_item{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    .stop-start .start{
+        transform: skew(0, 8deg);
+    }
+    .start .container{
+        padding: 60px 47px 0 35px;
+        margin: 0;
+        transform: skew(0, -8deg);
+    }
+    .start .description .description_item{
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    .stop .sub-title, .start .sub-title{
+        font-size: 32px;
+        font-weight: bold;
+        line-height: 26px;
+    }
+    .content-start_btn{
+        width: 203px;
+        text-align: center;
+    }
+    /*--------------------*/
+
+    .footer{
+        display: none;
+    }
+}
+
+@media screen and (width: 320px) {
+    .network-block_features{
+        width: 85%;
+    }
+}
+@media screen and (max-width: 340px) {
+    .companies_images-wrapper .companies_image{
+        margin: 0 10px;
+    }
+}
+@media (max-width: 768px) and (min-width: 360px) {
+    .feature:nth-child(2) .feature_text{
+        float: none;
+        margin-left: 0;
+    }
+    .feature:nth-child(2) .feature_count{
+        float: none;
+        margin-left: 0;
+    }
+    .network-block_features .feature{
+         justify-content: normal;
+    }
+    .feature .feature_count, .feature .feature_text{
+        text-align: start;
+    }
+}
+@media (max-width: 768px) and (min-width: 375px) {
+    .companies_images-wrapper{
+        width: 275px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 768px) and (min-width: 425px) {
+    .network-block_features{
+        width: 85%;
+    }
+    .network-block_features .feature{
+        margin-bottom: 45px;
+    }
+    .wconnect{
+        padding-bottom: 40px ;
+    }
+}
+@media (max-width: 768px) and (min-width: 500px) {
+    .companies_images-wrapper{
+        width: 400px;
+    }
+    .network-block_features .feature{
+        justify-content: center;
+    }
+}
+@media (max-width: 768px) and (min-width: 600px) {
+    .companies_images-wrapper{
+        width: 425px;
+    }
+}

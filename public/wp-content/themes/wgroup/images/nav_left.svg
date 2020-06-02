@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="29px" viewBox="0 0 16 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>5D857F03-6A93-4F28-BAFC-C13598E6FB61</title>
+    <g id="wgroup_mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="wgroup-HP-mobile" transform="translate(-17.000000, -715.000000)" fill="#0014C2">
+            <g id="logo-slider" transform="translate(0.000000, 578.000000)">
+                <g id="navigation" transform="translate(17.000000, 135.000000)">
+                    <g id="nav-left" transform="translate(8.000000, 15.655738) rotate(-180.000000) translate(-8.000000, -15.655738) translate(0.000000, 2.000000)">
+                        <polygon id="Fill-1" points="1.61649265 26.6557377 0 25.085566 11.7664431 13.6551825 0 2.2259094 1.61649265 0.655737705 15 13.6551825"></polygon>
+                        <path d="M2.33524819,-0.344262295 L0,1.96228676 L11.3295036,13.155194 L0,24.3491886 L2.33524819,26.6557377 L16,13.155194 L2.33524819,-0.344262295 Z M1.55646521,24.3491886 L12.8865192,13.1557377 L1.55646521,1.96228676 L2.33524819,1.19343708 L14.4435348,13.1557377 L2.33524819,25.1180383 L1.55646521,24.3491886 Z" id="Fill-2"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -2,6 +2,12 @@
     max-width: 1920px;
     margin: 0 auto;
 }
+.hamburger{
+    display: none;
+}
+.companies_slider{
+    display: none;
+}
 .container{
     width: 1300px;
     margin: 0 auto;
@@ -162,6 +168,12 @@
 .service-wrapper{
     display: flex;
     flex-wrap: wrap;
+}
+.service-block-responsive{
+    display: none;
+}
+.services_slider{
+    display: none;
 }
 .service-block{
     display: flex;
@@ -375,9 +387,6 @@
 }
 
 
-
-
-
 /* --- footer --- */
 
 .footer_wrapper{
@@ -490,5 +499,3 @@
     flex-flow: column-reverse;
     color: red;
 }
-
-/*margin: 55px 0 55px 0;*/
