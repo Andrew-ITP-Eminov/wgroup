@@ -1,0 +1,216 @@
+.shipping-app{
+    padding-top: 95px;
+    background-color: #D4E0E4;
+
+    margin-bottom: 40px;
+}
+.shipping-app_video{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.shipping-app_video .show-player{
+    display: none;
+}
+.shipping-app_video .text{
+    color: #0014C2;
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+.shipping-app_video .play{
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+.shipping-app_slogan .slogan_title{
+    color: #0014C2;
+    font-family: 'Assistant', sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 64px;
+    text-align: center;
+    margin: 0 20% 35px;
+}
+.shipping-app_slogan .slogan_description {
+    color: #363535;
+    font-family: 'Assistant', sans-serif;
+    font-size: 38px;
+    line-height: 42px;
+    text-align: center;
+    margin: 0 20% 48px;
+}
+.shipping-app_image{
+    text-align: center;
+    margin-top: -30px;
+}
+.shipping-app_image img{
+    /*margin: -10% auto 0;*/
+
+    margin: 0 auto;
+}
+.shipping-app-features{
+    padding: 72px 0 160px;
+    background-image: url("images/BG-blue.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shipping-app-features .features_title{
+    color: #FFFFFF;
+    font-family: 'Assistant', sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 42px;
+    margin-bottom: 54px;
+}
+.shipping-app-features .features_bullets{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+}
+.shipping-app-features .features_bullets .bullet{
+    width: 39%;
+    margin-right: 140px;
+}
+
+.shipping-app-features .features_bullets .bullet:nth-child(4) p{
+    margin-bottom: 0;
+}
+
+.shipping-app-features .features_bullets li{
+    list-style-image: url("images/arrow-green.svg");
+    color: #69DCAA;
+    font-family: 'Assistant', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 42px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.shipping-app-features .features_bullets p{
+    color: #FFFFFF;
+    font-family: 'Assistant', sans-serif;
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 35px;
+    margin-left: -20px;
+}
+.features_image{
+    text-align: center;
+    margin: -13.5% auto 0;
+}
+
+.shipping-app-using{
+    margin-top: -70px;
+    padding: 70px 0 80px;
+    background-image: url("images/steps-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.shipping-app-using .using-app_title{
+    color: #FFFFFF;
+    font-family: 'Assistant', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 62px;
+}
+
+.shipping-app-using .using-app_bullets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 0 16% 60px 21%;
+}
+
+.shipping-app-using .using-app_bullets .bullet{
+    text-align: center;
+}
+.shipping-app-using .using-app_bullets img{
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+.shipping-app-using .using-app_bullets li{
+    list-style-type: decimal;
+    color: #FFFFFF;
+    font-family: 'Assistant', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 26px;
+    text-align: center;
+}
+
+.shipping-app-using_btn{
+    height: 40px;
+    width: 165px;
+    border-radius: 6px;
+    background-color: #FF5A5A;
+    box-shadow: 2px 4px 12px 0 rgba(54,53,53,0.2);
+    border: none;
+    margin-right: 35px;
+}
+.shipping-app-using_btn a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.shipping-app-using_btn span{
+    padding-left: 4px;
+}
+.shipping-app-using_btn img{
+    padding-left: 10px;
+}
+
+/*------ modal form -----*/
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 73%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

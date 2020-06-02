@@ -1,0 +1,192 @@
+.about-page_slogan{
+    padding: 83px 0 96px;
+    background-image: url("images/header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-page_slogan .wrapper-info .title{
+    margin-bottom: 30px;
+    color: #FFFFFF;
+    font-family: 'Assistant', sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 64px;
+    margin-right: 63%;
+}
+
+.about-page_slogan .wrapper-info .description{
+    font-family: 'Assistant', sans-serif;
+    color: #DCDCDC;
+    font-size: 38px;
+    letter-spacing: 0;
+    line-height: 42px;
+}
+
+.about-page_description{
+    padding: 65px 0 78px;
+}
+
+.about-page_description .title{
+    color: #363535;
+    font-family: 'Assistant', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+    margin-bottom: 41px;
+    letter-spacing: 2px;
+}
+.about-page_description .wrapper-info{
+    display: flex;
+    justify-content: space-between;
+}
+.about-page_description .wrapper-info .text:first-child{
+    color: #363535;
+    font-family: 'Assistant', sans-serif;
+    font-size: 24px;
+    line-height: 26px;
+    width: 45%;
+}
+.about-page_description .wrapper-info .text:last-child{
+    color: #0014C2;
+    font-family: 'Assistant', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    width: 49%;
+}
+
+.about-page_what-we-do{
+    padding: 70px 0 76px;
+    background-color: #363535;
+}
+.about-page_what-we-do .title{
+    color: #72DAA3;
+    font-family: 'Assistant', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 77px;
+}
+.about-page_services{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.about-page_services .service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:10%;
+}
+.about-page_services .service .service_image{
+    margin-bottom: 29px;
+}
+.about-page_services .service .service_text{
+    color: #FFFFFF;
+    font-family: 'Assistant', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.about-page_bullets{
+    padding: 80px 0 54px;
+}
+.about-page_bullets .title{
+    color: #363535;
+    font-family: 'Assistant', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 42px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.about-page_bullets .bullets{
+    display: flex;
+    justify-content: space-between;
+}
+.about-page_bullets .bullets .bullet{
+    width: 28%;
+}
+
+.about-page_bullets .bullets .bullet_title-wrapper{
+    display: flex;
+    margin-bottom: 18px;
+}
+.about-page_bullets .bullet_title-wrapper .bullet_image{
+    margin-right: 20px;
+}
+.about-page_bullets .bullet_title-wrapper .bullet_text{
+    color: #0014C2;
+    font-family: 'Assistant', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 26px;
+    margin-right: 50%;
+}
+.about-page_bullets .bullet_description{
+    color: #363535;
+    font-family: 'Assistant', sans-serif;
+    font-size: 24px;
+    line-height: 26px;
+}
+.about-page.cta{
+    padding: 74px 0 64px;
+    background-color: #0014C2;
+}
+
+.about-page.cta .container{
+    text-align: center;
+}
+
+.about-page.cta .cta_title,.about-page.cta .cta_description{
+    color: #FFFFFF;
+    font-family: 'Assistant', sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+}
+.about-page.cta .cta_description{
+    margin-bottom: 45px;
+}
+
+.about-page.cta .cta_image{
+    float: left;
+    margin-top: 10px;
+    margin-right: -16px;
+    margin-left: 40px;
+}
+.about-page.cta .wrapper div{
+    width: 63%;
+    margin: 0 auto;
+}
+.about-page.cta .cta_btn{
+    height: 40px;
+    width: 165px;
+    border-radius: 6px;
+    background-color: #FF5A5A;
+    box-shadow: 2px 4px 12px 0 rgba(54,53,53,0.2);
+    border: none;
+}
+.about-page.cta .cta_btn a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.about-page.cta .cta_btn span{
+    padding-left: 4px;
+}
+.about-page.cta .cta_btn img{
+    padding-left: 10px;
+}
+.about-page.companies{
+    padding: 72px 0 76px;
+}

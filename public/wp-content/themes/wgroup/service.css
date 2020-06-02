@@ -1,0 +1,214 @@
+.service.service-slogan{
+    padding: 70px 0 59px;
+    background-image: url("images/services-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service .service-slogan_title{
+    color: #FFFFFF;
+    font-family: 'Assistant', sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 64px;
+    margin-bottom: 30px;
+    margin-right: 55%;
+}
+.service .service-slogan_description{
+    color: #DCDCDC;
+    font-family: 'Assistant', sans-serif;
+    font-size: 38px;
+    letter-spacing: 0;
+    line-height: 42px;
+    margin-bottom: 41px;
+    margin-right: 55%;
+}
+.service .service-slogan_btns{
+    display: flex;
+    margin-left: 25px;
+    text-transform: uppercase;
+    list-style-image: url("images/arrow-green.svg");
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 52px;
+}
+.service .service-slogan_btns li{
+    margin-right: 100px;
+}
+.service .service-slogan_btns a{
+    text-decoration: none;
+    color: #69DCAA;
+}
+
+/* ---- main-description ----*/
+.service.service-main-description{
+    padding-top: 67px;
+}
+.service.service-main-description .container{
+    display: flex;
+}
+.service .service-main-description_info{
+    margin-right: 85px;
+    width: 50%;
+}
+.service .service-main-description_title{
+    color: #363535;
+    font-family: 'Assistant', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.service .service-main-description_text {
+    color: #363535;
+    font-family: 'Assistant', sans-serif;
+    font-size: 24px;
+    line-height: 26px;
+}
+.service .service-main-description_bullets .bullet{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 25px;
+    margin-bottom: 60px;
+    width: 75%;
+}
+.service .service-main-description_bullets .bullet_image{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.service .service-main-description_bullets .bullet_wrapper h3{
+    color: #0014C2;
+    font-family: 'Assistant', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+.service .service-main-description_bullets .bullet_wrapper p{
+    color: #363535;
+    font-family: 'Assistant', sans-serif;
+    font-size: 24px;
+    line-height: 26px;
+}
+/* ---- service-features ----*/
+
+.service.service-features .service-features_title{
+    color: #FFFFFF;
+    font-family: 'Assistant', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 36px;
+    margin-right: 46%;
+}
+.service.service-features.s .service-features_title{
+    margin-right: 32%;
+}
+
+.service.service-features.f{
+    padding: 86px 0 65px;
+    background-image: url("images/BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.service.service-features.s{
+    background-color: #0014C2;
+    padding: 85px 0 46px;
+}
+.service.service-features .service-features-wrapper .wrapper{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 44px;
+    margin-left: 18px;
+    margin-top: 50px;
+}
+.service.service-features .service-features-wrapper .image{
+    margin-right: 45px;
+    margin-top: 15px;
+}
+.service.service-features .service-features-wrapper .text{
+    margin-right: 34%;
+}
+.service.service-features .service-features-wrapper .title{
+    color: #69DCAA;
+    font-family: 'Assistant', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 42px;
+    margin-bottom: 8px;
+}
+.service.service-features .service-features-wrapper .description{
+    color: #FFFFFF;
+    font-family: 'Assistant', sans-serif;
+    font-size: 24px;
+    line-height: 26px;
+}
+.service.service-features-wrapper{
+    position: relative;
+}
+.service.service-features-wrapper .service-features_image{
+    position: absolute;
+    top: 36%;
+    left: 68.5%;
+}
+
+/* ---- service-cta ----*/
+
+.service.cta{
+    padding: 65px 0 68px;
+}
+
+.service.cta .container{
+    text-align: center;
+}
+
+.service.cta .cta_title,.service.cta .cta_description{
+    color: #0014C2;
+    font-family: 'Assistant', sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+}
+.service.cta .cta_description{
+    margin-bottom: 45px;
+}
+
+.service.cta .cta_image{
+    float: left;
+    margin-top: 10px;
+    margin-right: -16px;
+    margin-left: 40px;
+}
+.service.cta .wrapper div{
+    width: 45%;
+    margin: 0 auto;
+}
+.service.cta .cta_btn{
+    height: 40px;
+    width: 165px;
+    border-radius: 6px;
+    background-color: #FF5A5A;
+    box-shadow: 2px 4px 12px 0 rgba(54,53,53,0.2);
+    border: none;
+}
+.service.cta .cta_btn a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.service.cta .cta_btn span{
+    padding-left: 4px;
+}
+.service.cta .cta_btn img{
+    padding-left: 10px;
+}
