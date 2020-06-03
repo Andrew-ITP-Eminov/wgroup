@@ -137,20 +137,23 @@
                                     <li class="description_item"><?php the_cfc_field( 'start','start_bullet', false, $key ); ?></li>
                                 <?php } ?>
                             </ul>
-                            <button class="content-start_btn">
-                                <?php
-                                if( have_rows('button') ):
-                                    while ( have_rows('button') ) : the_row();
-                                        ?>
-                                        <a href="/sign-up">
-                                            <span><?php echo get_sub_field('text'); ?></span>
-                                            <img src="<?php echo get_stylesheet_directory_uri().'/images/arrow-white.svg'; ?>" alt="">
-                                        </a>
+                            <div class="content-start_btn-wrapper">
+                                <button class="content-start_btn">
                                     <?php
-                                    endwhile;
-                                endif;
-                                ?>
-                            </button>
+                                    if( have_rows('button') ):
+                                        while ( have_rows('button') ) : the_row();
+                                            ?>
+                                            <a href="/sign-up">
+                                                <span><?php echo get_sub_field('text'); ?></span>
+                                                <img src="<?php echo get_stylesheet_directory_uri().'/images/arrow-white.svg'; ?>" alt="">
+                                            </a>
+                                        <?php
+                                        endwhile;
+                                    endif;
+                                    ?>
+                                </button>
+                            </div>
+
                         </div>
                     </div>
                 </div>
