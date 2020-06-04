@@ -388,6 +388,7 @@
         display: flex;
         justify-content: space-between;
         margin: 0;
+        padding-top: 10px;
     }
 
     .header_nav {
@@ -410,11 +411,7 @@
 
     .header_wrapper .hamburger {
         display: block;
-
         margin-right: 33px;
-        width: 30px;
-        height: 25px;
-        background-color: red;
     }
 
     .companies {
@@ -533,7 +530,6 @@
     .service-block {
         display: none;
     }
-
 
     .service-block_description {
         margin: 0 10px;
@@ -984,6 +980,11 @@
         font-weight: 200;
         text-decoration: none;
         border-bottom: 1px solid;
+    }
+
+    .menu-wrap-logo{
+        padding-top: 25px;
+        margin-left: -65px;
     }
 }
 @media (max-width: 425px) {

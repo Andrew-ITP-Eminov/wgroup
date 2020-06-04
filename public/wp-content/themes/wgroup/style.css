@@ -173,7 +173,7 @@
     flex-wrap: wrap;
 }
 .service-wrapper-responsive{
-    display: none;
+    display: none !important;
 }
 .services_slider{
     display: none;
