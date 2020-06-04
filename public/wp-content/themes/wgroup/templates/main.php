@@ -17,11 +17,17 @@
                 <?php echo do_shortcode('[smartslider3 slider="2"]'); ?>
             </div>
             <div class="companies">
-
                 <div class="container">
                     <p class="companies_title"> <?php echo get_field('company_title'); ?> </p>
                     <div class="companies_slider-wrapper">
-                        <div class="companies_slider left"><img src="<?php echo get_stylesheet_directory_uri().'/images/nav_left.svg'; ?>" alt=""></div>
+                        <div class="companies_images-wrapper_carousel owl-carousel owl-theme">
+                            <?php foreach( get_cfc_meta( 'companies_image' ) as $key => $value ){?>
+                                <div class="companies_image item" style="width:100%">
+                                    <img alt="" src="<?php the_cfc_field( 'companies_image','image', false, $key ); ?>"/>
+                                </div>
+                            <?php } ?>
+                        </div>
+
                         <div class="companies_images-wrapper">
                             <?php foreach( get_cfc_meta( 'companies_image' ) as $key => $value ){?>
                                 <div class="companies_image">
@@ -29,7 +35,6 @@
                                 </div>
                             <?php } ?>
                         </div>
-                        <div class="companies_slider right"><img src="<?php echo get_stylesheet_directory_uri().'/images/nav_right.svg'; ?>" alt=""></div>
                     </div>
                 </div>
             </div>
@@ -52,7 +57,6 @@
                     <p class="services_title"> <?php echo get_field('service_title'); ?> </p>
 
                     <div class="services_slider-wrapper">
-                        <div class="services_slider left"><img src="<?php echo get_stylesheet_directory_uri().'/images/nav left s.svg'; ?>" alt=""></div>
                         <div class="service-wrapper">
                             <?php foreach( get_cfc_meta( 'services' ) as $key => $value ){?>
                                 <div class="service-block">
@@ -62,8 +66,12 @@
                                         <p class="service-block_description"><?php the_cfc_field( 'services','services_description', false, $key ); ?></p>
                                     </div>
                                 </div>
+                            <?php } ?>
+                        </div>
 
-                                <div class="service-block-responsive">
+                        <div class="service-wrapper-responsive owl-carousel owl-theme">
+                            <?php foreach( get_cfc_meta( 'services' ) as $key => $value ){?>
+                                <div class="service-block-responsive item">
                                     <div class="service-block_text">
                                         <img class="service-block_image" src="<?php the_cfc_field( 'services','services_image', false, $key ); ?>" alt="">
                                         <p class="service-block_title"><?php the_cfc_field( 'services','services_title', false, $key ); ?></p>
@@ -72,7 +80,6 @@
                                 </div>
                             <?php } ?>
                         </div>
-                        <div class="services_slider right"><img src="<?php echo get_stylesheet_directory_uri().'/images/nav right s.svg'; ?>" alt=""></div>
                     </div>
 
                     <p class="services_read-more">

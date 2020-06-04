@@ -90,6 +90,9 @@
     flex-wrap: wrap;
 
 }
+.companies_images-wrapper_carousel{
+    display: none !important;
+}
 .companies_title{
     margin-bottom: 49px;
     color: #0014C2;
@@ -169,7 +172,7 @@
     display: flex;
     flex-wrap: wrap;
 }
-.service-block-responsive{
+.service-wrapper-responsive{
     display: none;
 }
 .services_slider{
