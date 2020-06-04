@@ -383,6 +383,12 @@
     .container {
         width: 100%;
     }
+    .slider-mobile{
+        display: block;
+    }
+    .slider{
+        display: none;
+    }
 
     .header_wrapper {
         display: flex;
@@ -424,8 +430,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 0 17px;
-
+        margin: 0 25px;
     }
 
     .companies .companies_title {

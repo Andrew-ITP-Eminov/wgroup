@@ -16,6 +16,9 @@
             <div class="slider">
                 <?php echo do_shortcode('[smartslider3 slider="2"]'); ?>
             </div>
+            <div class="slider-mobile">
+                <?php echo do_shortcode('[smartslider3 slider="3"]'); ?>
+            </div>
             <div class="companies">
                 <div class="container">
                     <p class="companies_title"> <?php echo get_field('company_title'); ?> </p>

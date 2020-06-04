@@ -6,7 +6,8 @@ $(document).ready(function() {
     	$menuWrap = $('.menu-wrap'),
     	$sidebarArrow = $('.sidebar-menu-arrow'),
 		$body = $('body'),
-		$image = $('.companies_image');
+		$image = $('.companies_image'),
+		$sliderMobile = $('.slider-mobile');
 
 	// Hamburger button
 
@@ -14,9 +15,9 @@ $(document).ready(function() {
 		$(this).toggleClass('button-open');
 		$menuWrap.toggleClass('menu-show');
 		$body.toggleClass('body-disabled');
-		$image.toggleClass('hide')
+		$image.toggleClass('hide');
+		$sliderMobile.toggleClass('hide');
 	});
-
 
 	// Sidebar navigation arrows
 

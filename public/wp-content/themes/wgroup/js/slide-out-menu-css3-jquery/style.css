@@ -160,87 +160,6 @@ body {
 	transform: rotate(-45deg) translate(7px, -7px);
 	transition: .5s;
 }
-
-
-
-/* Text Block */
-.wrapper {
-	width: 40%;
-	margin: 100px auto 0;
-	color: #83828D;
-}
-.wrapper .text {
-	padding: 30px;
-}
-.wrapper .text .heading {
-	margin-bottom: 40px;
-	font-size: 2em;
-}
-.wrapper .text p {
-	line-height: 1.6em;
-}
-.wrapper .text .buttons {
-	margin-top: 40px;
-}
-
-/* Buttons */
-.wrapper .buttons .button {
-	display: inline-block;
-	margin-right: 20px;
-	padding: 20px 25px;
-	border-radius: 2em;
-	background-color: #70CE64;
-	color: #fff;
-	font-size: .9em;
-	font-weight: 700;
-	transition: background-color .3s;
-}
-.wrapper .buttons .button-secondary {
-	background-color: #FF6746;
-}
-.wrapper .buttons .button-primary:hover {
-	background-color: #84D07A;
-}
-.wrapper .buttons .button-secondary:hover {
-	background-color: #FF7D60;
-}
-
-/*Active state for the buttons*/
-.wrapper .buttons .button-primary:active {
-	background-color: #70CE64;
-}
-.wrapper .buttons .button-secondary:active {
-	background-color: #FF6746;
-}
-
-/*Icons*/
-.wrapper .buttons .button span {
-	position: relative;
-	display: inline-block;
-	padding-right: 20px;
-}
-.wrapper .buttons .button span::after {
-	position: absolute;
-	font-family: "FontAwesome";
-	right: -3px;
-	font-size: 14px;
-	top: 0;
-	transition: top .3s, right .3s;
-}
-.wrapper .buttons .button-primary span::after {
-	content: "\f019";
-}
-.wrapper .buttons .button-secondary span::after {
-	content: "\f178";
-}
-/*Slight icons animation*/
-.wrapper .buttons .button-primary:hover span::after {
-	top: 4px;
-}
-.wrapper .buttons .button-secondary:hover span::after {
-	right: -6px;
-}
-
 .body-disabled{
 	position: fixed;
 	top: 0;
@@ -250,5 +169,5 @@ body {
 	background-color:  rgba(0,20,194,0.8);
 }
 .hide{
-	opacity: 0.2;
+	opacity: 0.5;
 }
