@@ -53,7 +53,9 @@
             <div class="about-page_services">
                 <?php foreach( get_cfc_meta( 'about_page_service-r' ) as $key => $value ){?>
                     <div class="service">
-                        <img class="service_image" src="<?php the_cfc_field( 'about_page_service-r','about_page_service-r_image', false, $key ); ?>" alt="">
+                        <div class="service_image-wrapper">
+                            <img class="service_image" src="<?php the_cfc_field( 'about_page_service-r','about_page_service-r_image', false, $key ); ?>" alt="">
+                        </div>
                         <p class="service_text"><?php the_cfc_field( 'about_page_service-r','about_page_service-r_title', false, $key ); ?></p>
                     </div>
                 <?php } ?>

@@ -33,7 +33,6 @@
     font-weight: bold;
     line-height: 28px;
     margin-bottom: 41px;
-    letter-spacing: 2px;
 }
 .about-page_description .wrapper-info{
     display: flex;
@@ -71,13 +70,15 @@
 .about-page_services{
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
 }
 .about-page_services .service{
     display: flex;
     flex-direction: column;
     align-items: center;
     width:10%;
+}
+.about-page_services .service .service_image-wrapper{
+    height: 100px;
 }
 .about-page_services .service .service_image{
     margin-bottom: 29px;

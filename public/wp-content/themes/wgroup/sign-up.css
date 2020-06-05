@@ -1,5 +1,5 @@
 .sign-up{
-    padding: 70px 0 72px;
+    padding: 72px 0 150px;
     background-image: url("images/BG image.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,8 +36,12 @@
     padding-top: 26px;
     padding-bottom: 5px;
 }
+.sign-up_form .submit-wrapper .submit{
+    display: flex;
+    margin-top: 30px;
+    justify-content: flex-end;
+}
 .sign-up_form input[type='submit']{
-    margin-top: 22px;
     border-top-left-radius: 4.8px;
     border-bottom-left-radius: 4.8px;
     box-shadow: 2px 3px 10px 0 rgba(54,53,53,0.5);
@@ -79,6 +83,9 @@
     padding: 7px 10px 11px 0;
     border-top-right-radius: 4.8px;
     border-bottom-right-radius: 4.8px;
+    display: flex;
+    align-items: center;
+    box-shadow: 8px 2px 14px 0 rgba(3,40,40,0.4);
 }
 .privacy-text, .privacy-text a{
     color: #363535;

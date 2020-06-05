@@ -19,7 +19,7 @@
                     <h1 class="sign-up_title"><?php the_cfc_field( 'sign_up','sign-up-title'); ?></h1>
                     <?php echo do_shortcode('[contact-form-7 id="165" title="sign up"]'); ?>
 
-                    <p class="sign-up_sign-in-text">Already have an account? <a href="">Sign in here</a></p>
+<!--                    <p class="sign-up_sign-in-text">Already have an account? <a href="">Sign in here</a></p>-->
                 </div>
             </div>
         </div>

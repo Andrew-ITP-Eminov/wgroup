@@ -37,6 +37,7 @@
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri().'/js/sign-up.js'; ?>"></script>
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri().'/js/shipping-app.js'; ?>"></script>
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri().'/js/main.js'; ?>"></script>
+    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri().'/js/service.js'; ?>"></script>
 
     </html>
 

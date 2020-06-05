@@ -19,7 +19,11 @@
                 <p class="service-slogan_description"><?php the_cfc_field( 'service_information','service_slogan_desc'); ?></p>
                 <ul class="service-slogan_btns">
                     <?php foreach( get_cfc_meta( 'service_slogan_btns' ) as $key => $value ){?>
-                        <li><a href="#"><?php the_cfc_field( 'service_slogan_btns','service_slogan_btn', false, $key ); ?></a></li>
+                        <li>
+                            <a href="#yak<?php echo $key+1?>">
+                                <?php the_cfc_field( 'service_slogan_btns','service_slogan_btn', false, $key ); ?>
+                            </a>
+                        </li>
                     <?php } ?>
                 </ul>
             </div>
@@ -46,13 +50,15 @@
         </div>
 
         <div class="service service-features-wrapper">
-            <div class="service service-features f">
+            <div class="service service-features f" id="yak1">
                 <div class="container">
                     <div class="service-features-wrapper">
                         <h1 class="service-features_title"><?php the_cfc_field( 'service_features_description_1','service_features_desc_1'); ?></h1>
                         <?php foreach( get_cfc_meta( 'service_features_1' ) as $key => $value ){?>
                             <div class="wrapper">
-                                <img class="image" src="<?php the_cfc_field( 'service_features_1','service_features_1_image', false, $key ); ?>" alt="">
+                                <div class="image-wrapper">
+                                    <img class="image" src="<?php the_cfc_field( 'service_features_1','service_features_1_image', false, $key ); ?>" alt="">
+                                </div>
                                 <div class="text">
                                     <p class="title"><?php the_cfc_field( 'service_features_1','service_features_1_title', false, $key ); ?></p>
                                     <p class="description"><?php the_cfc_field( 'service_features_1','service_features_1_description', false, $key ); ?></p>
@@ -62,7 +68,7 @@
                     </div>
                 </div>
             </div>
-            <div class="service service-features s">
+            <div class="service service-features s"  id="yak2">
                 <div class="container">
                     <div class="service-features-wrapper">
                         <h1 class="service-features_title"><?php the_cfc_field( 'service_features_description_2','service_features_desc_2'); ?></h1>

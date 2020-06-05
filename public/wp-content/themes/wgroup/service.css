@@ -126,12 +126,16 @@
     margin-left: 18px;
     margin-top: 50px;
 }
+.service.service-features .service-features-wrapper .image-wrapper{
+    width: 100px;
+}
 .service.service-features .service-features-wrapper .image{
     margin-right: 45px;
     margin-top: 15px;
 }
 .service.service-features .service-features-wrapper .text{
-    margin-right: 34%;
+    margin-right: 35%;
+    margin-left: 1%;
 }
 .service.service-features .service-features-wrapper .title{
     color: #69DCAA;
@@ -140,6 +144,7 @@
     font-weight: bold;
     line-height: 42px;
     margin-bottom: 8px;
+    text-transform: uppercase;
 }
 .service.service-features .service-features-wrapper .description{
     color: #FFFFFF;

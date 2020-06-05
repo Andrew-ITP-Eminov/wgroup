@@ -1,26 +1,20 @@
-a {
+
+.menu-wrap a {
 	text-decoration: none;
 }
-ul {
+.menu-wrap ul {
 	padding-left: 0;
 }
-li {
+.menu-wrap li {
 	list-style: none;
 }
 * {
 	box-sizing: border-box;
 }
-body {
-	font-family: 'Montserrat', Arial, serif;
-}
-::selection {
-	background-color: #EBEBF2;
-	color: #83828D;
-}
 
 
 /* ==================================== */
-/*		  	  Navigaton Menu		
+/*		  	  Navigaton Menu
 /* ==================================== */
 
 .menu-wrap {
