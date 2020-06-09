@@ -7,11 +7,7 @@
     /*max-width: 1920px;*/
     /*margin: 0 auto;*/
 }
-.slider h1{
-    font-family: 'Assistant', sans-serif !important;
-    margin-left: -50px !important;
-    margin-right: 50px !important;
-}
+
 .slider-mobile{
     display: none;
 }

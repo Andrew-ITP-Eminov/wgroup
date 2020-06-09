@@ -39,6 +39,15 @@
 }
 
 @media (max-width: 1600px) and (min-width: 769px) {
+
+    .slider-block_title{
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .slider-block_description{
+        font-size: 32px;
+        line-height: 36px;
+    }
     .wconnect_title{
         font-size: 30px;
         line-height: 30px;
@@ -131,6 +140,17 @@
 }
 
 @media (max-width: 1200px) {
+    .slider-block_title{
+        font-size: 32px;
+        line-height: 36px;
+        width: 40%;
+    }
+    .slider-block_description{
+        font-size: 28px;
+        line-height: 40px;
+        width: 45%;
+    }
+
     .footer_form input[type='submit'] {
         margin-left: 0;
         font-size: 24px;
@@ -311,29 +331,43 @@
 
 }
 @media (max-width: 1024px) and (min-width: 769px) {
-.header_wrapper, .footer_wrapper{
-    margin-left: 30px;
-    margin-right: 30px;
-}
-.header_nav .menu-main_page_menu-container .menu{
-    padding-left: 10px;
-}
-.header_nav .menu-main_page_menu-container .menu li{
-    padding-right: 40px;
-}
-.header_btn{
-    margin-left: 0;
-}
-.service-block{
-    margin-right: 30px;
-    margin-left: 20px;
-}
-.nightmare-info_title{
-    font-size: 18px;
-}
-.nightmare-info_description{
-    font-size: 18px;
-}
+    .header_wrapper, .footer_wrapper{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .header_nav .menu-main_page_menu-container .menu{
+        padding-left: 10px;
+    }
+    .header_nav .menu-main_page_menu-container .menu li{
+        padding-right: 40px;
+    }
+    .header_btn{
+        margin-left: 0;
+    }
+    .service-block{
+        margin-right: 30px;
+        margin-left: 20px;
+    }
+    .nightmare-info_title{
+        font-size: 18px;
+    }
+    .nightmare-info_description{
+        font-size: 18px;
+    }
+    .slider-block_text{
+        top: 10%;
+    }
+    .slider-block_title{
+        font-size: 26px;
+        line-height: 34px;
+        width: 40%;
+        margin-bottom: 10px;
+    }
+    .slider-block_description{
+        font-size: 22px;
+        line-height: 30px;
+        width: 45%;
+    }
 }
 @media (max-width: 960px) and (min-width: 769px) {
     .header_nav .menu-main_page_menu-container .menu li a {
@@ -401,12 +435,20 @@
     .container {
         width: 100%;
     }
-    /*.slider-mobile{*/
-    /*    display: block;*/
-    /*}*/
-    /*.slider{*/
-    /*    display: none;*/
-    /*}*/
+    .slider-mobile{
+        display: block;
+    }
+    .slider-mobile .owl-nav{
+        display: none;
+    }
+    .slider-mobile .owl-dots{
+        position: absolute;
+        bottom: 20px;
+        left: 45%;
+    }
+    .slider{
+        display: none;
+    }
 
     .header_wrapper {
         display: flex;

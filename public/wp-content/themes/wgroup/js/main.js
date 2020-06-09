@@ -108,17 +108,33 @@ $(document).ready(function() {
     const owl = $('.owl-carousel');
     owl.on('changed.owl.carousel', function() {
         const changeColor = $('.slider .owl-dots .owl-dot:nth-child(2)').hasClass('active')
-        
+        // const changeColorMobile = $('.slider-mobile .owl-dots .owl-dot:nth-child(1)').hasClass('active')
+
         if (changeColor){
-            $('.owl-dot:nth-child(2) span').css({'background-color' : '#0014C2'});
+            $('.slider .owl-dot:nth-child(2) span').css({'background-color' : '#0014C2'});
             $('.main_slider.right').removeClass('arrow-white').addClass('arrow-blue');
             $('.main_slider.left').removeClass('arrow-white').addClass('arrow-blue');
         }else{
-            $('.owl-dot:nth-child(2)  span').css({'background-color' : 'rgba(255,255,255,0.3)'});
+            $('.slider .owl-dot:nth-child(2)  span').css({'background-color' : 'rgba(255,255,255,0.3)'});
             $('.main_slider.right').removeClass('arrow-blue').addClass('arrow-white');
             $('.main_slider.left').removeClass('arrow-blue').addClass('arrow-white');
         }
     });
+
+    $('.slider-mobile.owl-carousel').owlCarousel({
+        loop: true,
+        nav: true,
+        // navText: [
+        //     "<div class='main_slider left'></div>",
+        //     "<div class='main_slider right'></div>"
+        // ],
+
+        responsive: {
+            0: {
+                items: 1,
+            },
+        }
+    })
 
 });
 
