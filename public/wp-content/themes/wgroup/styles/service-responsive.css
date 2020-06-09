@@ -1,4 +1,4 @@
-@media (max-width: 360px) {
+@media (max-width: 769px) {
     .service .service-slogan_title{
         font-size: 42px;
         font-weight: 800;
@@ -163,5 +163,26 @@
     }
     .service.cta .wrapper div{
         width: initial;
+    }
+}
+@media (min-width: 375px) {
+    .service .service-slogan_btns li{
+        margin-right: 50px;
+    }
+}
+@media (min-width: 425px) {
+    .service.service-slogan {
+        padding-top: 80px;
+        padding-bottom: 200px;
+    }
+}
+@media (min-width: 500px) {
+    .service .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .service .service-slogan_description{
+        font-size: 28px;
+        margin-top: 30px;
     }
 }
