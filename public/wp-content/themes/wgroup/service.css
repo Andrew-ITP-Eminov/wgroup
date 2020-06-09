@@ -4,7 +4,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.service .service-slider.owl-carousel{
+    display: none;
+}
 .service .service-slogan_title{
     color: #FFFFFF;
     font-family: 'Assistant', sans-serif;

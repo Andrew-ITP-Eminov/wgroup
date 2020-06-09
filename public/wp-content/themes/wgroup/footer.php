@@ -29,6 +29,8 @@
     <link rel="stylesheet" href="<?php echo get_site_url().'/node_modules/owl.carousel/dist/assets/owl.theme.default.min.css'; ?>">
 
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/styles/main-responsive.css'; ?>">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/styles/service-responsive.css'; ?>">
+
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/js/slide-out-menu-css3-jquery/style.css'; ?>">
 
 

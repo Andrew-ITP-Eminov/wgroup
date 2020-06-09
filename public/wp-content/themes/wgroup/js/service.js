@@ -5,4 +5,22 @@ $(document).ready(function(){
             top = $(id).offset().top;
         $('body,html').animate({scrollTop: top}, 1000);
     });
+
+    $('.service-slider.owl-carousel').owlCarousel({
+        loop: true,
+        nav: true,
+        navText: [
+            "<div class='service_slider left'></div>",
+            "<div class='service_slider right'></div>"
+        ],
+
+        responsive: {
+            0: {
+                items: 1,
+            },
+        }
+    })
+
+
+
 });

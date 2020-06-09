@@ -54,17 +54,33 @@
                 <div class="container">
                     <div class="service-features-wrapper">
                         <h1 class="service-features_title"><?php the_cfc_field( 'service_features_description_1','service_features_desc_1'); ?></h1>
-                        <?php foreach( get_cfc_meta( 'service_features_1' ) as $key => $value ){?>
-                            <div class="wrapper">
-                                <div class="image-wrapper">
-                                    <img class="image" src="<?php the_cfc_field( 'service_features_1','service_features_1_image', false, $key ); ?>" alt="">
+                        <div class="service-noslider">
+                            <?php foreach( get_cfc_meta( 'service_features_1' ) as $key => $value ){?>
+                                <div class="wrapper">
+                                    <div class="image-wrapper">
+                                        <img class="image" src="<?php the_cfc_field( 'service_features_1','service_features_1_image', false, $key ); ?>" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <p class="title"><?php the_cfc_field( 'service_features_1','service_features_1_title', false, $key ); ?></p>
+                                        <p class="description"><?php the_cfc_field( 'service_features_1','service_features_1_description', false, $key ); ?></p>
+                                    </div>
                                 </div>
-                                <div class="text">
-                                    <p class="title"><?php the_cfc_field( 'service_features_1','service_features_1_title', false, $key ); ?></p>
-                                    <p class="description"><?php the_cfc_field( 'service_features_1','service_features_1_description', false, $key ); ?></p>
+                            <?php } ?>
+                        </div>
+
+                        <div class="service-slider owl-carousel">
+                            <?php foreach( get_cfc_meta( 'service_features_1' ) as $key => $value ){?>
+                                <div class="wrapper item">
+                                    <div class="image-wrapper">
+                                        <img class="image" src="<?php the_cfc_field( 'service_features_1','service_features_1_image', false, $key ); ?>" alt="">
+                                        <p class="title"><?php the_cfc_field( 'service_features_1','service_features_1_title', false, $key ); ?></p>
+                                    </div>
+                                    <div class="text">
+                                        <p class="description"><?php the_cfc_field( 'service_features_1','service_features_1_description', false, $key ); ?></p>
+                                    </div>
                                 </div>
-                            </div>
-                        <?php } ?>
+                            <?php } ?>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -72,15 +88,31 @@
                 <div class="container">
                     <div class="service-features-wrapper">
                         <h1 class="service-features_title"><?php the_cfc_field( 'service_features_description_2','service_features_desc_2'); ?></h1>
-                        <?php foreach( get_cfc_meta( 'service_features_2' ) as $key => $value ){?>
-                            <div class="wrapper">
-                                <img class="image" src="<?php the_cfc_field( 'service_features_2','service_features_2_image', false, $key ); ?>" alt="">
-                                <div class="text">
-                                    <p class="title"><?php the_cfc_field( 'service_features_2','service_features_2_title', false, $key ); ?></p>
-                                    <p class="description"><?php the_cfc_field( 'service_features_2','service_features_2_description', false, $key ); ?></p>
+                        <div class="service-noslider">
+                            <?php foreach( get_cfc_meta( 'service_features_2' ) as $key => $value ){?>
+                                <div class="wrapper">
+                                    <img class="image" src="<?php the_cfc_field( 'service_features_2','service_features_2_image', false, $key ); ?>" alt="">
+                                    <div class="text">
+                                        <p class="title"><?php the_cfc_field( 'service_features_2','service_features_2_title', false, $key ); ?></p>
+                                        <p class="description"><?php the_cfc_field( 'service_features_2','service_features_2_description', false, $key ); ?></p>
+                                    </div>
                                 </div>
-                            </div>
-                        <?php } ?>
+                            <?php } ?>
+                        </div>
+
+                        <div class="service-slider owl-carousel">
+                            <?php foreach( get_cfc_meta( 'service_features_2' ) as $key => $value ){?>
+                                <div class="wrapper item">
+                                    <div class="image-wrapper">
+                                        <img class="image" src="<?php the_cfc_field( 'service_features_2','service_features_2_image', false, $key ); ?>" alt="">
+                                        <p class="title"><?php the_cfc_field( 'service_features_2','service_features_2_title', false, $key ); ?></p>
+                                    </div>
+                                    <div class="text">
+                                        <p class="description"><?php the_cfc_field( 'service_features_2','service_features_2_description', false, $key ); ?></p>
+                                    </div>
+                                </div>
+                            <?php } ?>
+                        </div>
                     </div>
                 </div>
             </div>
