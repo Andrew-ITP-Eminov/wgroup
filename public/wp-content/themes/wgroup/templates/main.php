@@ -12,13 +12,22 @@
 <body>
         <?php get_header(); ?>
         <div class="content" role="main">
-
             <div class="slider">
-                <?php echo do_shortcode('[smartslider3 slider="2"]'); ?>
+                <div class="slider-wrapper owl-carousel owl-theme">
+                    <?php foreach( get_cfc_meta( 'slider' ) as $key => $value ){?>
+                        <div class="slider-block item slide-<?php echo $key+1 ?>">
+                            <div class="slider-block_image-wrapper">
+                                <img class="slider-block_image" src="<?php the_cfc_field( 'slider','slider-image', false, $key ); ?>" alt="">
+                            </div>
+                            <div class="slider-block_text">
+                                <p class="slider-block_title title-<?php echo $key+1 ?>"><?php the_cfc_field( 'slider','slider-title', false, $key ); ?></p>
+                                <p class="slider-block_description description-<?php echo $key+1 ?>"><?php the_cfc_field( 'slider','slider-description', false, $key ); ?></p>
+                            </div>
+                        </div>
+                    <?php } ?>
+                </div>
             </div>
-            <div class="slider-mobile">
-                <?php echo do_shortcode('[smartslider3 slider="3"]'); ?>
-            </div>
+
             <div class="companies">
                 <div class="container">
                     <p class="companies_title"> <?php echo get_field('company_title'); ?> </p>

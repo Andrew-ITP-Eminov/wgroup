@@ -1,8 +1,4 @@
-<?php
-
-
-
-get_header(); ?>
+<?php get_header(); ?>
     <div id="ttr_main" class="row">
         <div id="ttr_content" class="col-lg-8 col-sm-8 col-md-8 col-xs-12">
 
@@ -24,3 +20,4 @@ get_header(); ?>
     </div>
 
 <?php get_footer(); ?>
+
