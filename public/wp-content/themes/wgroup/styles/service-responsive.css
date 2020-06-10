@@ -203,7 +203,7 @@
         letter-spacing: 0;
         line-height: 28px;
     }
-    .owl-carousel .owl-item img{
+    .service.owl-carousel .owl-item img{
         width: initial;
     }
     .service.service-features .service-features-wrapper .image-wrapper{
