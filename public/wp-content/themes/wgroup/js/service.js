@@ -18,6 +18,9 @@ $(document).ready(function(){
             0: {
                 items: 1,
             },
+            768: {
+                items: 2,
+            },
         }
     })
 

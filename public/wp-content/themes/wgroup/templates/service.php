@@ -91,7 +91,9 @@
                         <div class="service-noslider">
                             <?php foreach( get_cfc_meta( 'service_features_2' ) as $key => $value ){?>
                                 <div class="wrapper">
-                                    <img class="image" src="<?php the_cfc_field( 'service_features_2','service_features_2_image', false, $key ); ?>" alt="">
+                                    <div class="image-wrapper">
+                                        <img class="image" src="<?php the_cfc_field( 'service_features_2','service_features_2_image', false, $key ); ?>" alt="">
+                                    </div>
                                     <div class="text">
                                         <p class="title"><?php the_cfc_field( 'service_features_2','service_features_2_title', false, $key ); ?></p>
                                         <p class="description"><?php the_cfc_field( 'service_features_2','service_features_2_description', false, $key ); ?></p>
