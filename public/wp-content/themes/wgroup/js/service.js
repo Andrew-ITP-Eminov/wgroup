@@ -23,7 +23,4 @@ $(document).ready(function(){
             },
         }
     })
-
-
-
 });

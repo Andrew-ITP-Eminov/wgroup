@@ -1,5 +1,3 @@
-
-
 const playBtn = document.querySelector('.shipping-app_video .play');
 const player = document.querySelector('.show-player');
 const modal = document.getElementById("myModal");
@@ -31,3 +29,33 @@ window.onclick = function(event) {
     }
 }
 playBtn.addEventListener('click', handledPlay);
+
+$(document).ready(function(){
+    $(window).on('load resize', function () {
+        if ($(this).width() > 1600) {
+            $(".features_bullets.owl-carousel").trigger('destroy.owl.carousel');
+        } else {
+            $('.features_bullets.owl-carousel').owlCarousel({
+                loop: true,
+                nav: true,
+                dots: false,
+                navText: [
+                    "<div class='shipping-app_slider left'></div>",
+                    "<div class='shipping-app_slider right'></div>"
+                ],
+                responsive: {
+                    0:{
+                        items: 1,
+                    },
+                    660:{
+                        items: 2,
+                    },
+                    1024:{
+                        items: 3,
+                    },
+                }
+            })
+        }
+    })
+
+});

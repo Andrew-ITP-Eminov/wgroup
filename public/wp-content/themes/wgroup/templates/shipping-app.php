@@ -45,7 +45,7 @@
     <div class="shipping-app-features">
         <div class="container">
             <h1 class="features_title"><?php the_cfc_field( 'shipping_app','features-title'); ?></h1>
-            <ul class="features_bullets">
+            <ul class="features_bullets owl-carousel owl-theme">
                 <?php foreach( get_cfc_meta( 'shipping_app_features' ) as $key => $value ){?>
                     <div class="bullet">
                         <li><?php the_cfc_field( 'shipping_app_features','features-bullets-title', false, $key ); ?></li>
@@ -63,7 +63,9 @@
         <ul class="using-app_bullets">
             <?php foreach( get_cfc_meta( 'using_app_bullets' ) as $key => $value ){?>
                 <div class="bullet">
-                    <img src="<?php the_cfc_field('using_app_bullets', 'using-app-bullets-img', false, $key); ?>" alt="">
+                    <div>
+                        <img src="<?php the_cfc_field('using_app_bullets', 'using-app-bullets-img', false, $key); ?>" alt="">
+                    </div>
                     <li><?php the_cfc_field( 'using_app_bullets','using-app-bullets-title', false, $key ); ?></li>
                 </div>
             <?php } ?>
