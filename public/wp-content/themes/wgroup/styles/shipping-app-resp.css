@@ -1,0 +1,64 @@
+@media (max-width: 768px) {
+    .shipping-app_slogan .slogan_title{
+        font-size: 42px;
+        letter-spacing: 0;
+        line-height: 40px;
+        text-align: center;
+        margin: 0 33px 10px;
+    }
+    .shipping-app_slogan .slogan_description{
+        font-size: 26px;
+        line-height: 26px;
+        text-align: center;
+        margin: 0 33px 17px;
+    }
+    .shipping-app{
+        padding-top: 29px;
+        padding-bottom: 60px;
+    }
+    .shipping-app_video .text{
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 0.6px;
+        line-height: 40px;
+    }
+    .shipping-app_video .play{
+        height: 43px;
+        width: 42px;
+        margin-right: 16px;
+    }
+    .shipping-app_video .play img{
+        width: 100%;
+    }
+    .shipping-app_image img{
+        width: 91%;
+    }
+    .shipping-app_image{
+        margin-bottom: 50px;
+    }
+    .shipping-app-features{
+        padding-top: 33px;
+    }
+    .shipping-app-features .features_title{
+        font-size: 26px;
+        font-weight: 800;
+        line-height: 28px;
+        margin: 0 78px 21px 33px;
+    }
+    .shipping-app-features .features_bullets{
+        /*margin: 0 33px 0 58px;*/
+        margin: 0 60px 0 80px;
+    }
+    .shipping-app-features .features_bullets .bullet{
+        width: 100%;
+        margin-right: 0;
+    }
+    .shipping-app-features .features_bullets li{
+        font-size: 26px;
+        font-weight: bold;
+        line-height: 28px;
+    }
+    .modal-content {
+        width: 90%;
+    }
+}
