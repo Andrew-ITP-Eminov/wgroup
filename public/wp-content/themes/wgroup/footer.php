@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/styles/service-responsive.css'; ?>">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/styles/contact-us-resp.css'; ?>">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/styles/shipping-app-resp.css'; ?>">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/styles/sign-up-resp.css'; ?>">
 
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/js/slide-out-menu-css3-jquery/style.css'; ?>">
 
