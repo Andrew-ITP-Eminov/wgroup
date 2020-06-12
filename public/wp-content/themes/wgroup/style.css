@@ -8,7 +8,7 @@
     /*margin: 0 auto;*/
 }
 
-.slider-mobile{
+.slider-mobile.owl-carousel.owl-loaded{
     display: none;
 }
 .hamburger{

@@ -148,17 +148,6 @@
         text-align: start;
         margin-left: 35px;
     }
-    .shipping-app-using .using-app_title{
-        font-size: 26px;
-        letter-spacing: 0;
-        line-height: 31px;
-        text-align: initial;
-        margin: 0 31px 25px 34px;
-    }
-    .shipping-app-using .using-app_bullets{
-       display: block;
-        margin: 0 31px 56px 34px;
-    }
     .shipping-app-using .using-app_bullets img{
         margin-bottom: 0;
         width: 68px;
@@ -186,6 +175,28 @@
 @media (max-width: 768px) {
     .shipping-app{
         padding-top: 29px;
+    }
+    .shipping-app-using .using-app_title{
+        font-size: 26px;
+        letter-spacing: 0;
+        line-height: 31px;
+        text-align: initial;
+        margin: 0 31px 25px 34px;
+    }
+    .shipping-app-using .using-app_bullets{
+        display: block;
+        margin: 0 31px 56px 34px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .shipping-app-using .using-app_title{
+        font-size: 26px;
+        letter-spacing: 0;
+        line-height: 31px;
+        text-align: center;
+    }
+    .shipping-app-using_btn{
+        margin-right: 0;
     }
 }
 @media (max-width: 659px) {

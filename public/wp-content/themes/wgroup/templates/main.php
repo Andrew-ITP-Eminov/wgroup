@@ -13,22 +13,18 @@
         <?php get_header(); ?>
         <div class="content" role="main">
 
-<!--            <div class="slider-mobile owl-carousel owl-theme">-->
-<!--                --><?php //foreach( get_cfc_meta( 'mobile_slider' ) as $key => $value ){?>
-<!--                    <div class="slider-block item mobile-slide---><?php //echo $key+1 ?><!--">-->
-<!--                        <div class="slider-block_image-wrapper">-->
-<!--                            <img class="slider-block_image" src="--><?php //the_cfc_field( 'mobile_slider','mobile-slider-image', false, $key ); ?><!--" alt="">-->
-<!--                        </div>-->
-<!--                        <div class="slider-block_text">-->
-<!--                            <p class="slider-block_title mobile-title---><?php //echo $key+1 ?><!--">--><?php //the_cfc_field( 'mobile_slider','mobile-slider-title', false, $key ); ?><!--</p>-->
-<!--                            <p class="slider-block_description mobile-description---><?php //echo $key+1 ?><!--">--><?php //the_cfc_field( 'mobile_slider','mobile-slider-desc', false, $key ); ?><!--</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                --><?php //} ?>
-<!--            </div>-->
-
-            <div class="slider-mobile">
-                <?php echo do_shortcode('[smartslider3 slider="3"]') ?>
+            <div class="slider-mobile owl-carousel owl-theme">
+                <?php foreach( get_cfc_meta( 'mobile_slider' ) as $key => $value ){?>
+                    <div class="slider-block item mobile-slide-<?php echo $key+1 ?>">
+                        <div class="slider-block_image-wrapper">
+                            <img class="slider-block_image" src="<?php the_cfc_field( 'mobile_slider','mobile-slider-image', false, $key ); ?>" alt="">
+                        </div>
+                        <div class="slider-block_text">
+                            <p class="slider-block_title mobile-title-<?php echo $key+1 ?>"><?php the_cfc_field( 'mobile_slider','mobile-slider-title', false, $key ); ?></p>
+                            <p class="slider-block_description mobile-description-<?php echo $key+1 ?>"><?php the_cfc_field( 'mobile_slider','mobile-slider-desc', false, $key ); ?></p>
+                        </div>
+                    </div>
+                <?php } ?>
             </div>
 
             <div class="slider">

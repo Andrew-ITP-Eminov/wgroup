@@ -26,7 +26,6 @@ $(document).ready(function() {
 
     /*--------*/
 
-
     $('.nightmare-info .title-wrapper').on('click', function () {
         $(this).siblings().slideToggle("slow");
         if (+$(this).siblings().css('height')[0]) {
@@ -40,6 +39,7 @@ $(document).ready(function() {
         loop: true,
         margin: 40,
         nav: true,
+        lazyLoad: true,
         navText: [
             "<div class='companies_slider left'></div>",
             "<div class='companies_slider right'></div>"
@@ -73,6 +73,7 @@ $(document).ready(function() {
         loop: true,
         margin: 35,
         nav: true,
+        lazyLoad: true,
         navText: [
             "<div class='services_slider left'></div>",
             "<div class='services_slider right'></div>"
@@ -94,6 +95,7 @@ $(document).ready(function() {
     $('.slider-wrapper.owl-carousel').owlCarousel({
         loop: true,
         nav: true,
+        lazyLoad: true,
         navText: [
             "<div class='main_slider left'></div>",
             "<div class='main_slider right'></div>"
@@ -105,10 +107,28 @@ $(document).ready(function() {
         }
     })
 
+    $('.slider-mobile.owl-carousel').owlCarousel({
+        loop: true,
+        nav: true,
+        lazyLoad: true,
+        dotsEach: true,
+        responsive: {
+            0: {
+                items: 1,
+            },
+        }
+    })
+
     const owl = $('.owl-carousel');
     owl.on('changed.owl.carousel', function() {
         const changeColor = $('.slider .owl-dots .owl-dot:nth-child(2)').hasClass('active')
-        // const changeColorMobile = $('.slider-mobile .owl-dots .owl-dot:nth-child(1)').hasClass('active')
+        const changeColorMobile = $('.slider-mobile .owl-dots .owl-dot:nth-child(2)').hasClass('active')
+
+        if (changeColorMobile) {
+            $('.slider-mobile .owl-dot:nth-child(2) span').css({'background-color' : '#0014C2'});
+        }else{
+            $('.slider-mobile .owl-dot:nth-child(2) span').css({'background-color' : '#D6D6D6'});
+        }
 
         if (changeColor){
             $('.slider .owl-dot:nth-child(2) span').css({'background-color' : '#0014C2'});
@@ -120,21 +140,5 @@ $(document).ready(function() {
             $('.main_slider.left').removeClass('arrow-blue').addClass('arrow-white');
         }
     });
-
-    $('.slider-mobile.owl-carousel').owlCarousel({
-        loop: true,
-        nav: true,
-        // navText: [
-        //     "<div class='main_slider left'></div>",
-        //     "<div class='main_slider right'></div>"
-        // ],
-
-        responsive: {
-            0: {
-                items: 1,
-            },
-        }
-    })
-
 });
 
