@@ -896,7 +896,7 @@
     }
 }
 @media (max-width: 768px) and (min-width: 375px) {
-.companies_images-wrapper{
+.companies .companies_images-wrapper{
     width: 275px;
     margin: 0 auto;
 }
@@ -913,15 +913,15 @@
 }
 }
 @media (max-width: 768px) and (min-width: 500px) {
-.companies_images-wrapper{
-    width: 400px;
-}
-.network-block_features .feature{
-    justify-content: center;
-}
+    .companies .companies_images-wrapper{
+        width: 400px;
+    }
+    .network-block_features .feature{
+        justify-content: center;
+    }
 }
 @media (max-width: 768px) and (min-width: 600px) {
-    .companies_images-wrapper{
+    .companies .companies_images-wrapper{
         width: 425px;
     }
     .start .container{

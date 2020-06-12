@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/styles/contact-us-resp.css'; ?>">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/styles/shipping-app-resp.css'; ?>">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/styles/sign-up-resp.css'; ?>">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/styles/about-responsive.css'; ?>">
 
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/js/slide-out-menu-css3-jquery/style.css'; ?>">
 
@@ -45,6 +46,7 @@
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri().'/js/shipping-app.js'; ?>"></script>
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri().'/js/main.js'; ?>"></script>
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri().'/js/service.js'; ?>"></script>
+    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri().'/js/about.js'; ?>"></script>
 
     </html>
 

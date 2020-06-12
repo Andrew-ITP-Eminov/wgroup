@@ -38,7 +38,7 @@ $(document).ready(function() {
 
     $('.companies_images-wrapper_carousel.owl-carousel').owlCarousel({
         loop: true,
-        margin: 50,
+        margin: 40,
         nav: true,
         navText: [
             "<div class='companies_slider left'></div>",

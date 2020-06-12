@@ -38,7 +38,9 @@
             <div class="network-block_features">
                 <?php foreach( get_cfc_meta( 'about_page_network-r' ) as $key => $value ){?>
                     <div class="feature">
-                        <img class="feature_image" src="<?php the_cfc_field( 'about_page_network-r','about_page_network_image', false, $key ); ?>" alt="">
+                        <div class="about feature_image-wrapper">
+                            <img class="feature_image" src="<?php the_cfc_field( 'about_page_network-r','about_page_network_image', false, $key ); ?>" alt="">
+                        </div>
                         <p class="feature_count"><?php the_cfc_field( 'about_page_network-r','about_page_network-r_count', false, $key ); ?></p>
                         <p class="feature_text"><?php the_cfc_field( 'about_page_network-r','about_page_network-r_desc', false, $key ); ?></p>
                     </div>
@@ -80,12 +82,12 @@
         </div>
     </div>
 
-    <div class="about-page companies">
+    <div class="about-page about-page_companies">
         <div class="container">
             <p class="companies_title"> <?php the_cfc_field('about_page_text', 'about_page_company_title'); ?> </p>
-            <div class="companies_images-wrapper">
+            <div class="companies_images-wrapper owl-carousel owl-theme">
                 <?php foreach( get_cfc_meta( 'about_page_companies-r' ) as $key => $value ){?>
-                    <div class="companies_image">
+                    <div class="companies_image item">
                         <img alt="" src="<?php the_cfc_field( 'about_page_companies-r','about_page_company-img', false, $key ); ?>"/>
                     </div>
                 <?php } ?>
