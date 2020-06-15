@@ -2,6 +2,13 @@
 /*(max-width: 1300px) and (min-width: 769px)*/
 
 @media (max-width: 1919px) and (min-width: 769px) {
+    .companies{
+        padding: 30px 0 35px;
+    }
+    .companies .companies_title{
+        margin-bottom: 20px;
+    }
+
     .header_wrapper{
         margin-left: 0;
         margin-right: 0;
@@ -37,17 +44,41 @@
         margin: 0 100px;
     }
 }
-
-@media (max-width: 1600px) and (min-width: 769px) {
-
+@media (max-width: 1600px) and (min-width: 1440px) {
     .slider-block_title{
-        font-size: 36px;
-        line-height: 36px;
+        font-size: 50px;
+        line-height: 50px;
     }
     .slider-block_description{
         font-size: 32px;
         line-height: 36px;
     }
+}
+@media (max-width: 1440px) and (min-width: 1200px) {
+    .slider-block_text{
+        top: 15%;
+    }
+    .slider-block_title{
+        font-size: 45px;
+        line-height: 45px;
+        margin-bottom: 15px;
+    }
+    .slider-block_description{
+        font-size: 32px;
+        line-height: 36px;
+    }
+}
+@media (max-width: 1600px) and (min-width: 769px) {
+
+    /*.slider-block_title{*/
+    /*    font-size: 36px;*/
+    /*    line-height: 36px;*/
+    /*}*/
+    /*.slider-block_description{*/
+    /*    font-size: 32px;*/
+    /*    line-height: 36px;*/
+    /*}*/
+
     .wconnect_title{
         font-size: 30px;
         line-height: 30px;
@@ -67,6 +98,9 @@
 }
 
 @media (max-width: 1440px) and (min-width: 769px) {
+    .nightmare-info:first-child .nightmare-info_title{
+        margin-right: 0;
+    }
     .footer_nav .menu-main_page_menu-container .menu {
         padding-left: 70px;
     }
@@ -103,11 +137,15 @@
         align-items: flex-start;
     }
     .wconnect{
-        background-image: url("../images/ipad-mockup-r.png");
+        /*background-image: url("../images/ipad-mockup-r.png");*/
+
+        background-repeat: round;
+        padding: 45px 0 45px;
+
     }
     .wconnect_info{
-        width: 80%;
-        margin: 0 auto;
+        width: auto;
+        margin-left: 55%;
     }
     .stop-start .title{
         font-size: 32px;
@@ -136,14 +174,42 @@
     }
     .footer_form-title{
         margin-bottom: 10px;
+        padding-left: 28px;
     }
 }
 
 @media (max-width: 1200px) {
+    .wconnect .container{
+        margin: 0;
+        margin-right: 50px;
+    }
+    .wconnect .wconnect_description{
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .wconnect .wconnect_link{
+        line-height: normal;
+        font-size: 18px;
+    }
+    .wconnect{
+        padding: 75px 0 60px;
+    }
+    .wconnect_title-wrapper{
+        margin-right: 0;
+    }
+    .wconnect_title-wrapper .wconnect_title{
+        font-size: 26px;
+        line-height: 26px;
+    }
+    .wconnect_link{
+        margin-top: 0;
+    }
+
     .slider-block_title{
         font-size: 32px;
         line-height: 36px;
         width: 40%;
+        margin-bottom: 15px;
     }
     .slider-block_description{
         font-size: 28px;
@@ -171,7 +237,14 @@
         box-shadow: none;
     }
 }
-
+@media (max-width: 1024px) and (min-width: 768px){
+    .wconnect{
+        padding: 30px 0 30px;
+    }
+    .wconnect_title-wrapper .wconnect_image{
+        margin-top: 5px;
+    }
+}
 @media (max-width: 1200px) and (min-width: 769px) {
     .header_nav .menu-main_page_menu-container .menu{
         padding-left: 50px;
@@ -183,7 +256,7 @@
         display: block;
     }
     .header_logo .image_logo{
-        width: 100%;
+        width: 90%;
     }
     .companies_images-wrapper{
         justify-content: center;
@@ -453,7 +526,8 @@
         display: flex;
         justify-content: space-between;
         margin: 0;
-        padding-top: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
         width: auto;
     }
 
@@ -467,17 +541,18 @@
 
     .header_logo {
         width: 145px;
-        margin-left: 34px;
+        margin-left: 55px;
     }
 
     .header_logo .image_logo {
-        width: 115%;
+        width: 100%;
         padding: 5px 0;
     }
 
     .header_wrapper .hamburger {
         display: block;
         margin-right: 33px;
+        top: 20px;
     }
 
     .companies {
@@ -708,7 +783,7 @@
     }
 
     .wconnect_image {
-        margin-top: 5px;
+        margin-top: 0;
         margin-right: 10px;
         width: 75px;
     }

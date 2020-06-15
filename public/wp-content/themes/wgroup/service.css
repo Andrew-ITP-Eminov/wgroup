@@ -204,6 +204,9 @@
     box-shadow: 2px 4px 12px 0 rgba(54,53,53,0.2);
     border: none;
 }
+.service.cta .cta_btn:hover{
+    background-color: #0014C2;
+}
 .service.cta .cta_btn a{
     display: flex;
     align-items: center;

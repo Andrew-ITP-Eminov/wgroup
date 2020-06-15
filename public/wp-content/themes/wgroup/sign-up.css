@@ -24,12 +24,12 @@
     width: 43%;
 }
 .sign-up_form form:last-child{
-    color: red;
+    color: #FF5A5A;
 }
 .sign-up_form form span{
     display: flex;
     flex-flow: column-reverse;
-    color: red;
+    color: #FF5A5A;
 }
 .sign-up_form form span input{
     width: 100%;
@@ -38,16 +38,21 @@
     border-bottom: 1px solid #363535;
     padding-top: 26px;
     padding-bottom: 5px;
+    font-family: 'Assistant', sans-serif;
+    font-size: 18px;
 }
 .sign-up_form .submit-wrapper .submit{
     display: flex;
-    margin-top: 30px;
-    justify-content: flex-end;
+    background-color: #FF5A5A;
+    border-radius: 4.8px;
+}
+.sign-up_form .submit-wrapper .submit:hover{
+    background-color: #0014C2;
+    box-shadow: 2px 3px 10px 0 rgba(54,53,53,0.5);
 }
 .sign-up_form input[type='submit']{
     border-top-left-radius: 4.8px;
     border-bottom-left-radius: 4.8px;
-    box-shadow: 2px 3px 10px 0 rgba(54,53,53,0.5);
     border: none;
     padding: 5px 8px 9px 15px;
     color: #FFFFFF;
@@ -55,7 +60,7 @@
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 0;
-    background-color: #FF5A5A;
+    background-color: initial;
 
 }
 .sign-up_form input[type='checkbox'] {
@@ -82,13 +87,12 @@
 
 .sign-up_form .submit::after{
     content: url("images/arrow-white.svg");
-    background-color: #FF5A5A;
     padding: 7px 10px 11px 0;
     border-top-right-radius: 4.8px;
     border-bottom-right-radius: 4.8px;
     display: flex;
     align-items: center;
-    box-shadow: 8px 2px 14px 0 rgba(3,40,40,0.4);
+    background-color: initial;
 }
 .privacy-text, .privacy-text a{
     color: #363535;
@@ -103,6 +107,9 @@
 }
 .sign-up_form .submit-wrapper{
     margin-bottom: 30px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: flex-end;
 }
 .screen-reader-response{
     display: none;

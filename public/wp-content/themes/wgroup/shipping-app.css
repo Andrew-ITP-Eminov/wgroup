@@ -157,6 +157,9 @@
     border: none;
     margin-right: 35px;
 }
+.shipping-app-using_btn:hover{
+    background-color: #69DCAA;
+}
 .shipping-app-using_btn a{
     display: flex;
     align-items: center;

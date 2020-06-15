@@ -97,7 +97,6 @@
 .contact-us input[type='submit']{
     border-top-left-radius: 4.8px;
     border-bottom-left-radius: 4.8px;
-    box-shadow: 2px 3px 10px 0 rgba(54,53,53,0.5);
     border: none;
     padding: 5px 8px 9px 15px;
     color: #FFFFFF;
@@ -118,9 +117,17 @@
     margin-right: 10px;
 }
 .contact-us .submit-wrapper{
-    text-align: end;
+    /*text-align: end;*/
     padding-right: 8%;
-    margin-top: -9px;
+    /*margin-top: -9px;*/
+    margin-bottom: 10px;
+
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.contact-us .wpcf7-mail-sent-ok{
+    color: #0014C2;
 }
 .sign-up_sign-in-text{
     color: #0014C2;
@@ -159,9 +166,9 @@
     margin-bottom: 30px;
 }
 .contact-us_form .submit-wrapper .submit{
-    margin-top: 30px;
     display: flex;
-    justify-content: flex-end;
+    box-shadow: 2px 3px 10px 0 rgba(54,53,53,0.5);
+    border-radius: 4.8px;
 }
 .screen-reader-response{
     display: none;

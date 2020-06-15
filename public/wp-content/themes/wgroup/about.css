@@ -33,6 +33,7 @@
     font-weight: bold;
     line-height: 28px;
     margin-bottom: 41px;
+    text-transform: uppercase;
 }
 .about-page_description .wrapper-info{
     display: flex;
@@ -55,7 +56,7 @@
 }
 
 .about-page_what-we-do{
-    padding: 70px 0 76px;
+    padding: 70px 0 95px;
     background-color: #363535;
 }
 .about-page_what-we-do .title{
@@ -65,7 +66,7 @@
     font-weight: bold;
     line-height: 42px;
     text-align: center;
-    margin-bottom: 77px;
+    margin-bottom: 85px;
 }
 .about-page_services{
     display: flex;
@@ -93,7 +94,7 @@
     text-align: center;
 }
 .about-page_bullets{
-    padding: 80px 0 54px;
+    padding: 58px 0 125px;
 }
 .about-page_bullets .title{
     color: #363535;
@@ -193,5 +194,5 @@
 }
 
 .about-page.about-page_companies{
-    margin-bottom: 60px;
+    margin-bottom: 78px;
 }

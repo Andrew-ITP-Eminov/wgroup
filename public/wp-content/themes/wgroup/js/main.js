@@ -140,5 +140,11 @@ $(document).ready(function() {
             $('.main_slider.left').removeClass('arrow-blue').addClass('arrow-white');
         }
     });
+
+    // $('.footer_form .submit').hover(function () {
+    //     // $(this).children().css({'background-color': '#0014C2'});
+    //
+    //     console.log($('.footer_form .submit input:after'));
+    // });
 });
 
