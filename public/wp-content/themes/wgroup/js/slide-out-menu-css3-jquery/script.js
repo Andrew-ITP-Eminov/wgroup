@@ -18,6 +18,9 @@ $(document).ready(function() {
 		$body.toggleClass('body-disabled');
 		$image.toggleClass('hide');
 		$sliderMobile.toggleClass('hide');
+		$('.header').toggleClass('disabled')
+		$('.content').toggleClass('disabled')
+		$('.footer').toggleClass('disabled')
 	});
 
 	// Sidebar navigation arrows

@@ -160,8 +160,31 @@
 	left: 0;
 	width: 100vw;
 	height: 100vh;
-	background-color:  rgba(0,20,194,0.8);
 }
 .hide{
 	opacity: 0.5;
+}
+
+/*.disabled{*/
+/*	background-color:  rgba(0,20,194,0.8);*/
+/*}*/
+.disabled, .disabled.content .shipping-app {
+	background-color:  rgba(0,20,194,0.8);
+	pointer-events: none;
+}
+.disabled .menu-wrap.menu-show, .disabled .hamburger{
+	pointer-events: initial !important;
+}
+.disabled.content img{
+	opacity: 0.5;
+}
+
+.disabled.content > *{
+	background-image: initial;
+}
+.disabled.content input, .disabled.content textarea{
+	background-color:  initial;
+}
+.disabled.content .submit{
+	background-color:  rgba(0,20,194,0.8);
 }
