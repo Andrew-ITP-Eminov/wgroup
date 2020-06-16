@@ -21,7 +21,7 @@
         padding-right: 12px;
     }
     .contact-us .submit::after{
-        margin-left: -2px;
+        margin-left: -4px;
     }
     .contact-us .contacts .title-wrapper{
         margin-bottom: 30px;
@@ -146,7 +146,7 @@
         font-weight: bold;
         letter-spacing: 0;
         line-height: 47.31px;
-        padding: 0 10px 7px 30px;
+        padding: 0 14px 7px 27px;
     }
     .contact-us .submit::after{
         padding: 7px 30px 11px 0;

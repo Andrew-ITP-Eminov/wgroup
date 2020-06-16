@@ -1023,7 +1023,17 @@
         width: 70%;
     }
 }
-
+@media (min-width: 768px) {
+    .nightmare-info .title-wrapper{
+        pointer-events: none;
+    }
+    .nightmare-info_description{
+        display: block !important;
+    }
+    .nightmare-info_icon{
+        transform: rotate(0deg) !important;
+    }
+}
 @media (max-width: 768px) {
     .companies_images-wrapper_carousel{
         display: flex !important;

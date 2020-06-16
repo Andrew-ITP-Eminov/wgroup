@@ -48,17 +48,21 @@
 
             <div class="slider">
                 <div class="slider-wrapper owl-carousel owl-theme">
-                    <?php foreach( get_cfc_meta( 'slider' ) as $key => $value ){?>
-                        <div class="slider-block item slide-<?php echo $key+1 ?>">
-                            <div class="slider-block_image-wrapper">
-                                <img class="slider-block_image" src="<?php the_cfc_field( 'slider','slider-image', false, $key ); ?>" alt="">
+                    <?php
+//                    if (!wp_is_mobile()) {
+                        foreach( get_cfc_meta( 'slider' ) as $key => $value ){?>
+                            <div class="slider-block item slide-<?php echo $key+1 ?>">
+                                <div class="slider-block_image-wrapper">
+                                    <img class="slider-block_image" src="<?php the_cfc_field( 'slider','slider-image', false, $key ); ?>" alt="">
+                                </div>
+                                <div class="slider-block_text">
+                                    <h2 class="slider-block_title title-<?php echo $key+1 ?>"><?php the_cfc_field( 'slider','slider-title', false, $key ); ?></h2>
+                                    <p class="slider-block_description description-<?php echo $key+1 ?>"><?php the_cfc_field( 'slider','slider-description', false, $key ); ?></p>
+                                </div>
                             </div>
-                            <div class="slider-block_text">
-                                <h2 class="slider-block_title title-<?php echo $key+1 ?>"><?php the_cfc_field( 'slider','slider-title', false, $key ); ?></h2>
-                                <p class="slider-block_description description-<?php echo $key+1 ?>"><?php the_cfc_field( 'slider','slider-description', false, $key ); ?></p>
-                            </div>
-                        </div>
-                    <?php } ?>
+                        <?php } ?>
+<!--                    --><?php //} ?>
+
                 </div>
             </div>
 

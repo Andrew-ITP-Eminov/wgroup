@@ -118,8 +118,8 @@ $(document).ready(function() {
         nav: true,
         lazyLoad: true,
         dotsEach: true,
-        mouseDrag: false,
-        touchDrag: false,
+        // mouseDrag: false,
+        // touchDrag: false,
         responsive: {
             0: {
                 items: 1,

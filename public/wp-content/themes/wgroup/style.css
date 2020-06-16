@@ -1,3 +1,6 @@
+input::-webkit-input-placeholder {
+    line-height:normal!important;
+}
 
 .service-block_image-wrapper{
     width: 115px;
@@ -613,7 +616,7 @@
     font-family: 'Assistant', sans-serif;
     font-size: 18px;
     letter-spacing: 0;
-    line-height: 38.4px;
+    /*line-height: 38.4px;*/
 }
 .footer_form input[type='submit']{
     background-color: initial;
