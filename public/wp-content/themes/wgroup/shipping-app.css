@@ -53,7 +53,7 @@
     margin: 0 auto;
 }
 .shipping-app-features{
-    padding: 72px 0 160px;
+    padding: 88px 0 160px;
     background-image: url("images/BG-blue.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -147,13 +147,16 @@
     line-height: 26px;
     text-align: center;
 }
-
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
 .shipping-app-using_btn{
     height: 40px;
     width: 165px;
     border-radius: 6px;
     background-color: #FF5A5A;
-    box-shadow: 2px 4px 12px 0 rgba(54,53,53,0.2);
+    box-shadow: 2px 6px 15px 0 rgba(54,53,53,0.5);
     border: none;
     margin-right: 35px;
 }

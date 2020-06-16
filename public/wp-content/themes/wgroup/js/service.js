@@ -9,6 +9,8 @@ $(document).ready(function(){
     $('.service-slider.owl-carousel').owlCarousel({
         loop: true,
         nav: true,
+        mouseDrag: false,
+        touchDrag: false,
         navText: [
             "<div class='service_slider left'></div>",
             "<div class='service_slider right'></div>"

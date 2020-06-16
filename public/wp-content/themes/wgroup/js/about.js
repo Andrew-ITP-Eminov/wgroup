@@ -22,6 +22,8 @@ $(document).ready(function(){
                 loop: true,
                 nav: true,
                 dots: false,
+                mouseDrag: false,
+                touchDrag: false,
                 navText: [
                     "<div class='companies_slider  left'></div>",
                     "<div class='companies_slider  right'></div>"

@@ -40,6 +40,8 @@ $(document).ready(function() {
         margin: 40,
         nav: true,
         lazyLoad: true,
+        mouseDrag: false,
+        touchDrag: false,
         navText: [
             "<div class='companies_slider left'></div>",
             "<div class='companies_slider right'></div>"
@@ -74,6 +76,8 @@ $(document).ready(function() {
         margin: 35,
         nav: true,
         lazyLoad: true,
+        mouseDrag: false,
+        touchDrag: false,
         navText: [
             "<div class='services_slider left'></div>",
             "<div class='services_slider right'></div>"
@@ -96,6 +100,8 @@ $(document).ready(function() {
         loop: true,
         nav: true,
         lazyLoad: true,
+        mouseDrag: false,
+        touchDrag: false,
         navText: [
             "<div class='main_slider left'></div>",
             "<div class='main_slider right'></div>"
@@ -112,6 +118,8 @@ $(document).ready(function() {
         nav: true,
         lazyLoad: true,
         dotsEach: true,
+        mouseDrag: false,
+        touchDrag: false,
         responsive: {
             0: {
                 items: 1,

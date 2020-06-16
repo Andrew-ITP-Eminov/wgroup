@@ -1,4 +1,5 @@
 const playBtn = document.querySelector('.shipping-app_video .play');
+const playText = document.querySelector('.shipping-app_video .text');
 const player = document.querySelector('.show-player');
 const modal = document.getElementById("myModal");
 const btn = document.getElementById("myBtn");
@@ -8,6 +9,7 @@ const handledPlay = (event) => {
     if (event.currentTarget){
         player.style.display = "block";
         modal.style.display = "block";
+        $('body').addClass('stop-scrolling');
 
         player.getElementsByTagName('video')[0].play();
     }
@@ -16,6 +18,8 @@ const handledPlay = (event) => {
 if (span){
     span.onclick = function() {
         modal.style.display = "none";
+        $('body').removeClass('stop-scrolling');
+
         player.getElementsByTagName('video')[0].pause();
     }
 }
@@ -24,11 +28,10 @@ window.onclick = function(event) {
     if (event.target === modal) {
         modal.style.display = "none";
         player.getElementsByTagName('video')[0].pause();
-
-        console.log(player.getElementsByTagName('video')[0]);
     }
 }
 playBtn.addEventListener('click', handledPlay);
+playText.addEventListener('click', handledPlay);
 
 $(document).ready(function(){
     $(window).on('load resize', function () {
@@ -39,6 +42,8 @@ $(document).ready(function(){
                 loop: true,
                 nav: true,
                 dots: false,
+                mouseDrag: false,
+                touchDrag: false,
                 navText: [
                     "<div class='shipping-app_slider left'></div>",
                     "<div class='shipping-app_slider right'></div>"

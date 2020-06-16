@@ -522,6 +522,19 @@
     .slider{
         display: none;
     }
+
+    /*.header{*/
+    /*    position: fixed;*/
+    /*    top: 0;*/
+    /*    left: 0;*/
+    /*    width: 100%;*/
+    /*    z-index: 10;*/
+    /*    background-color: white;*/
+    /*}*/
+    /*.content{*/
+    /*    margin-top: 70px;*/
+    /*}*/
+
     .header_wrapper {
         display: flex;
         justify-content: space-between;
@@ -554,7 +567,9 @@
         margin-right: 33px;
         top: 20px;
     }
-
+    .menu-sidebar .current_page_item a{
+        border-bottom: 4px solid #0014C2;
+    }
     .companies {
         padding: 27px 0 45px;
         justify-content: space-between;

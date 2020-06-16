@@ -3,9 +3,9 @@
         font-size: 54px;
         line-height: 54px;
     }
-    .contact-us{
-        margin-top: 70px;
-    }
+    /*.contact-us{*/
+    /*    margin-top: 70px;*/
+    /*}*/
     .contact-us .form-wrapper{
         width: 55%;
         margin-right: 70px;
@@ -66,9 +66,7 @@
         margin-right: 20%;
         margin-bottom: 33px;
     }
-    .contact-us{
-        margin-top: 70px;
-    }
+
     .contact-us .form-wrapper{
         width: 75%;
         margin-right: 50px;
@@ -100,11 +98,12 @@
 }
 
 @media (max-width: 1024px) {
+    .contact-us .submit-wrapper{
+        justify-content: flex-start;
+        padding-right: 0;
+    }
     .contact-us .container{
         display: block;
-    }
-    .contact-us{
-        margin: 0;
     }
     .contact-us .form-wrapper{
         width: auto;

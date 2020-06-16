@@ -7,7 +7,8 @@ $(document).ready(function() {
     	$sidebarArrow = $('.sidebar-menu-arrow'),
 		$body = $('body'),
 		$image = $('.companies_image'),
-		$sliderMobile = $('.slider-mobile');
+		$sliderMobile = $('.slider-mobile'),
+		$menuItem = $('.menu-sidebar .menu-item');
 
 	// Hamburger button
 
@@ -20,6 +21,10 @@ $(document).ready(function() {
 	});
 
 	// Sidebar navigation arrows
+
+	$menuItem.click(function (event) {
+		$('.menu-sidebar .menu-item a').css({'border': 'none'});
+	});
 
 	$sidebarArrow.click(function() {
 		$(this).next().slideToggle(300);
