@@ -9,14 +9,32 @@
  */
 
 ?>
+<head>
+    <meta charset='utf-8'>
+    <title>About Us | World Logistics Group</title>
+    <meta name="description" content="We work every day to help you cross borders, reach markets and grow your business. Experience the World Logistics Group team. " />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://wlog-group.com/about/" />
 
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="About Us | World Logistics Group" />
+    <meta property="og:description" content="We work every day to help you cross borders, reach markets and grow your business. Experience the World Logistics Group team." />
+    <meta property="og:url" content="https://wlog-group.com/about/" />
+    <meta property="og:site_name" content="World Logistics Group" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="We work every day to help you cross borders, reach markets and grow your business. Experience the World Logistics Group team." />
+    <meta name="twitter:title" content="About Us | World Logistics Group" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 <body>
 <?php get_header(); ?>
 <div class="content" role="main">
     <div class="about-page_slogan">
         <div class="container">
             <div class="wrapper-info">
-                <h1 class="title"><?php the_cfc_field( 'about_page_text','about_page_slogan_title'); ?></h1>
+                <h2 class="title"><?php the_cfc_field( 'about_page_text','about_page_slogan_title'); ?></h2>
                 <p class="description"><?php the_cfc_field( 'about_page_text','about_page_slogan_desc'); ?></p>
             </div>
         </div>
@@ -24,7 +42,7 @@
 
     <div class="about-page_description">
         <div class="container">
-            <h1 class="title"><?php the_cfc_field( 'about_page_text','about_page_desc_title'); ?></h1>
+            <h2 class="title"><?php the_cfc_field( 'about_page_text','about_page_desc_title'); ?></h2>
             <div class="wrapper-info">
                 <p class="text"><?php the_cfc_field( 'about_page_text','about_page_desc_text-1'); ?></p>
                 <p class="text"><?php the_cfc_field( 'about_page_text','about_page_desc_text-2'); ?></p>
@@ -100,12 +118,12 @@
             <div class="wrapper">
                 <div>
                     <img class="cta_image" src="<?php the_cfc_field( 'about_page_cta','about_page_cta_img'); ?>" alt=""/>
-                    <h1 class="cta_title"><?php the_cfc_field( 'about_page_cta','about_page_cta_title'); ?></h1>
+                    <h2 class="cta_title"><?php the_cfc_field( 'about_page_cta','about_page_cta_title'); ?></h2>
                 </div>
                 <p class="cta_description"><?php the_cfc_field( 'about_page_cta','about_page_cta_desc'); ?></p>
             </div>
             <button class="cta_btn">
-                <a href="/sign-up">
+                <a href="/sign-up/">
                     <span>Get started</span>
                     <img src="<?php echo get_stylesheet_directory_uri().'/images/arrow-white.svg'; ?>" alt="">
                 </a>

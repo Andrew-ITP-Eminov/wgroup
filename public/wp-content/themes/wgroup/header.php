@@ -1,9 +1,4 @@
 <html>
-<head>
-    <title>Wgroup</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
 <div id="ttr_header" class="header">
     <div class="header_wrapper">
         <div class="header_logo">
@@ -13,7 +8,7 @@
             <?php wp_nav_menu(); ?>
         </div>
         <button class="header_btn">
-            <a href="/sign-up">
+            <a href="/sign-up/">
                 <span>Get started</span>
                 <img src="<?php echo get_stylesheet_directory_uri().'/images/arrow-white.svg'; ?>" alt="">
             </a>
@@ -30,7 +25,7 @@
                 <ul class="menu">
                     <?php wp_nav_menu(); ?>
                     <li class="link">
-                        <a href="/sign-up">
+                        <a href="/sign-up/">
                             <span>Get started</span>
                             <img src="<?php echo get_stylesheet_directory_uri().'/images/arrow-red.svg'; ?>" alt="">
                         </a>

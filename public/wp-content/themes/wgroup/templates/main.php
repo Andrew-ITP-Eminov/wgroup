@@ -9,6 +9,25 @@
 */
 
 ?>
+<head>
+    <meta charset='utf-8'>
+    <title>World Logistics Group: Global Freight Forwarding Services</title>
+    <meta name="description" content="World Logistics Group moves freight globally by air, ocean, and truck for the world's leading brands. We ensure that your cargo is delivered safely to its final destination. Contact us right now." />
+    <meta name="keywords" content="freight forwarder, freight forwarding services, freight international services, online freight broker" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://wlog-group.com/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="World Logistics Group: Global Freight Forwarding Services" />
+    <meta property="og:description" content="World Logistics Group moves freight globally by air, ocean, and truck for the world's leading brands. We ensure that your cargo is delivered safely to its final destination. Contact us right now." />
+    <meta property="og:url" content="https://wlog-group.com/" />
+    <meta property="og:site_name" content="World Logistics Group" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="World Logistics Group moves freight globally by air, ocean, and truck for the world's leading brands. We ensure that your cargo is delivered safely to its final destination. Contact us right now." />
+    <meta name="twitter:title" content="World Logistics Group: Global Freight Forwarding Services" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+</head>
 <body>
         <?php get_header(); ?>
         <div class="content" role="main">
@@ -20,7 +39,7 @@
                             <img class="slider-block_image" src="<?php the_cfc_field( 'mobile_slider','mobile-slider-image', false, $key ); ?>" alt="">
                         </div>
                         <div class="slider-block_text">
-                            <p class="slider-block_title mobile-title-<?php echo $key+1 ?>"><?php the_cfc_field( 'mobile_slider','mobile-slider-title', false, $key ); ?></p>
+                            <h2 class="slider-block_title mobile-title-<?php echo $key+1 ?>"><?php the_cfc_field( 'mobile_slider','mobile-slider-title', false, $key ); ?></h2>
                             <p class="slider-block_description mobile-description-<?php echo $key+1 ?>"><?php the_cfc_field( 'mobile_slider','mobile-slider-desc', false, $key ); ?></p>
                         </div>
                     </div>
@@ -35,7 +54,7 @@
                                 <img class="slider-block_image" src="<?php the_cfc_field( 'slider','slider-image', false, $key ); ?>" alt="">
                             </div>
                             <div class="slider-block_text">
-                                <p class="slider-block_title title-<?php echo $key+1 ?>"><?php the_cfc_field( 'slider','slider-title', false, $key ); ?></p>
+                                <h2 class="slider-block_title title-<?php echo $key+1 ?>"><?php the_cfc_field( 'slider','slider-title', false, $key ); ?></h2>
                                 <p class="slider-block_description description-<?php echo $key+1 ?>"><?php the_cfc_field( 'slider','slider-description', false, $key ); ?></p>
                             </div>
                         </div>
@@ -113,7 +132,7 @@
 
                     <p class="services_read-more">
                         <?php if( have_rows('services_read_more') ): while ( have_rows('services_read_more') ) : the_row(); ?>
-                            <a href="/services"><?php echo get_sub_field('text'); ?></a>
+                            <a href="/services/"><?php echo get_sub_field('text'); ?></a>
                         <?php endwhile; endif; ?>
                     </p>
                 </div>
@@ -139,7 +158,7 @@
                     <div class="wconnect_info">
                         <div class="wconnect_title-wrapper">
                             <img class="wconnect_image" src="<?php the_cfc_field( 'wconnect','wconnect_image' ); ?>" alt="" >
-                            <h1 class="wconnect_title"><?php the_cfc_field( 'wconnect','wconnect_title' ); ?></h1>
+                            <h2 class="wconnect_title"><?php the_cfc_field( 'wconnect','wconnect_title' ); ?></h2>
                         </div>
                         <p class="wconnect_description"><?php the_cfc_field( 'wconnect','wconnect_description' ); ?></p>
                         <?php if( have_rows('wconnect_link') ): while ( have_rows('wconnect_link') ) : the_row(); ?>
@@ -152,7 +171,7 @@
             <div class="stop-start">
                 <div class="stop">
                     <div class="container">
-                        <h1 class="title"><?php echo get_field('stop_title'); ?></h1>
+                        <h2 class="title"><?php echo get_field('stop_title'); ?></h2>
                         <div>
                             <h2 class="sub-title">stop...</h2>
                             <ul class="description">
@@ -165,7 +184,7 @@
                 </div>
                 <div class="start">
                     <div class="container">
-                        <h1 class="title"><?php echo get_field('start_title'); ?></h1>
+                        <h2 class="title"><?php echo get_field('start_title'); ?></h2>
                         <div>
                             <h2 class="sub-title">start...</h2>
                             <ul class="description">
@@ -179,7 +198,7 @@
                                     if( have_rows('button') ):
                                         while ( have_rows('button') ) : the_row();
                                             ?>
-                                            <a href="/sign-up">
+                                            <a href="/sign-up/">
                                                 <span><?php echo get_sub_field('text'); ?></span>
                                                 <img src="<?php echo get_stylesheet_directory_uri().'/images/arrow-white.svg'; ?>" alt="">
                                             </a>

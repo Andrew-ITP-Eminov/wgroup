@@ -11,7 +11,7 @@
             </div>
 
             <div class="footer_form">
-                <h1 class="footer_form-title">Global freight can be easy!</h1>
+                <h2 class="footer_form-title">Global freight can be easy!</h2>
                 <?php echo do_shortcode('[contact-form-7 id="165" title="sign up"]'); ?>
             </div>
         </div>
@@ -48,5 +48,20 @@
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri().'/js/service.js'; ?>"></script>
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri().'/js/about.js'; ?>"></script>
 
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org/",
+            "@type": "Organization",
+            "name": "World Logistics Group",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "1050 Wall Street W, Suite 370",
+                "addressLocality": "Lyndhurst",
+                "addressRegion": "NJ",
+                "postalCode": "07071"
+            },
+            "telephone": "+1 201 777 32 95"
+        }
+    </script>
     </html>
 

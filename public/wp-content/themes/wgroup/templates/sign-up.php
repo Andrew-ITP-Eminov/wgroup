@@ -9,7 +9,25 @@
  */
 
 ?>
+<head>
+    <meta charset='utf-8'>
+    <title>Sign Up | World Logistics Group</title>
+    <meta name="description" content="Shipping made easy. Book the best rates, track all freight, just sign up now on W Connect." />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="noindex, follow" />
+    <link rel="canonical" href="https://wlog-group.com/sign-up/" />
 
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sign Up | World Logistics Group" />
+    <meta property="og:description" content="Shipping made easy. Book the best rates, track all freight, just sign up now on W Connect." />
+    <meta property="og:url" content="https://wlog-group.com/sign-up/" />
+    <meta property="og:site_name" content="World Logistics Group" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="Shipping made easy. Book the best rates, track all freight, just sign up now on W Connect." />
+    <meta name="twitter:title" content="Sign Up | World Logistics Group" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+</head>
 <body>
     <?php get_header(); ?>
     <div class="content" role="main">
