@@ -778,8 +778,8 @@
     .wconnect {
         padding: 39px 32px 360px 34px;
         background-image: url("../images/ipad-mockup-r.png");
+        background-repeat: round;
     }
-
     .wconnect_info {
         width: 100%;
         margin-left: 0;
@@ -985,23 +985,97 @@
     }
 }
 @media (max-width: 768px) and (min-width: 375px) {
-.companies .companies_images-wrapper{
-    width: 275px;
-    margin: 0 auto;
-}
+    .companies .companies_images-wrapper{
+        width: 275px;
+        margin: 0 auto;
+    }
 }
 @media (max-width: 768px) and (min-width: 425px) {
-.network-block_features{
-    width: 85%;
+    .network-block_features{
+        width: 85%;
+    }
+    .network-block_features .feature{
+        margin-bottom: 45px;
+    }
 }
-.network-block_features .feature{
-    margin-bottom: 45px;
+@media (max-width: 768px) and (min-width: 600px) {
+    .wconnect {
+        padding: 80px 100px 430px 95px;
+    }
+    .wconnect .wconnect_description{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .wconnect_title-wrapper{
+        margin-bottom: 50px;
+    }
+    .wconnect_title-wrapper .wconnect_title{
+        line-height: 45px;
+        font-size: 36px;
+    }
+    .wconnect_image{
+        margin-top: 12px;
+    }
+    .wconnect .wconnect_link{
+        font-size: 26px;
+        margin-top: 35px;
+    }
+    .nightmare{
+        padding-bottom: 60px;
+    }
 }
-.wconnect{
-    padding-bottom: 40px ;
+@media (max-width: 700px) and (min-width: 600px) {
+    .wconnect {
+        padding: 80px 100px 430px 95px;
+    }
+    .wconnect .wconnect_description{
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .wconnect_title-wrapper{
+        margin-bottom: 50px;
+    }
+    .wconnect_title-wrapper .wconnect_title{
+        line-height: 40px;
+        font-size: 28px;
+    }
+    .wconnect_image{
+        margin-top: 10px;
+    }
+    .wconnect .wconnect_link{
+        font-size: 21px;
+        margin-top: 28px;
+    }
+    .nightmare{
+        padding-bottom: 60px;
+    }
 }
+@media (max-width: 600px) and (min-width: 500px) {
+    .wconnect {
+        padding: 50px 50px 360px 50px;
+    }
+    .wconnect .wconnect_description{
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .wconnect_title-wrapper{
+        margin-bottom: 50px;
+    }
+    .wconnect_title-wrapper .wconnect_title{
+        line-height: 35px;
+    }
+    .wconnect_image{
+        margin-top: 7px;
+    }
+    .wconnect .wconnect_link{
+        font-size: 20px;
+        margin-top: 25px;
+    }
 }
+
 @media (max-width: 768px) and (min-width: 500px) {
+
+
     .companies .companies_images-wrapper{
         width: 400px;
     }
@@ -1091,7 +1165,7 @@
     .companies_slider.left{
         background-image: url("../images/nav_left.svg");
         background-repeat: no-repeat;
-        width: 30px;
+        width: 18px;
         height: 30px;
         top: 25%;
         left: -35px;
@@ -1100,10 +1174,10 @@
     .companies_slider.right{
         background-image: url("../images/nav_right.svg");
         background-repeat: no-repeat;
-        width: 30px;
+        width: 18px;
         height: 30px;
         top: 25%;
-        right: -45px;
+        right: -37px;
         position: absolute;
     }
     .service-wrapper-responsive{

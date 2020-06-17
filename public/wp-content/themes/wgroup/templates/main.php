@@ -31,7 +31,6 @@
 <body>
         <?php get_header(); ?>
         <div class="content" role="main">
-
             <div class="slider-mobile owl-carousel owl-theme">
                 <?php foreach( get_cfc_meta( 'mobile_slider' ) as $key => $value ){?>
                     <div class="slider-block item mobile-slide-<?php echo $key+1 ?>">
@@ -49,7 +48,6 @@
             <div class="slider">
                 <div class="slider-wrapper owl-carousel owl-theme">
                     <?php
-//                    if (!wp_is_mobile()) {
                         foreach( get_cfc_meta( 'slider' ) as $key => $value ){?>
                             <div class="slider-block item slide-<?php echo $key+1 ?>">
                                 <div class="slider-block_image-wrapper">
@@ -61,8 +59,6 @@
                                 </div>
                             </div>
                         <?php } ?>
-<!--                    --><?php //} ?>
-
                 </div>
             </div>
 

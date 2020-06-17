@@ -409,3 +409,15 @@
         padding-bottom: 80px;
     }
 }
+
+@media (min-width: 768px) {
+    .bullet_title-wrapper{
+        pointer-events: none;
+    }
+    .bullet_description{
+        display: block !important;
+    }
+    .bullet_image{
+        transform: rotate(0deg) !important;
+    }
+}
