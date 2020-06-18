@@ -37,8 +37,9 @@ $(document).ready(function() {
 
     $('.companies_images-wrapper_carousel.owl-carousel').owlCarousel({
         loop: true,
-        margin: 40,
+        margin: 30,
         nav: true,
+        // autoWidth:true,
         lazyLoad: true,
         mouseDrag: false,
         touchDrag: false,
@@ -50,18 +51,20 @@ $(document).ready(function() {
         responsive: {
             0: {
                 items: 2,
-                margin: 50,
+                margin: 0,
             },
-            400: {
+            500: {
                 items: 3,
-                margin: 50,
             },
-            600: {
+            700: {
                 items: 4,
-                margin: 50,
             },
             1000: {
                 items: 5
+            },
+            1300:{
+                items: 6,
+                margin: 40,
             }
         }
     })

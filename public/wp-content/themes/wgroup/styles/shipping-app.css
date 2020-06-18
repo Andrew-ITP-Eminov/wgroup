@@ -19,6 +19,7 @@
     letter-spacing: 0.5px;
     line-height: 38px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 .shipping-app_video .play{
     margin-right: 10px;
@@ -55,8 +56,11 @@
 .shipping-app-features{
     padding: 88px 0 160px;
     background-image: url("images/BG-blue.png");
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+
     background-size: cover;
+    background-position: right top;
 }
 .shipping-app-features .features_title{
     color: #FFFFFF;

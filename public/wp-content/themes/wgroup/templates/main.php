@@ -68,7 +68,7 @@
                     <div class="companies_slider-wrapper">
                         <div class="companies_images-wrapper_carousel owl-carousel owl-theme">
                             <?php foreach( get_cfc_meta( 'companies_image' ) as $key => $value ){?>
-                                <div class="companies_image item" style="width:100%">
+                                <div class="companies_image item" style="width:99px">
                                     <img alt="" src="<?php the_cfc_field( 'companies_image','image', false, $key ); ?>"/>
                                 </div>
                             <?php } ?>
