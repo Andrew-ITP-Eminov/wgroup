@@ -1,1 +1,423 @@
-@media (min-width:1400px){.companies_images-wrapper.owl-carousel{display:flex}}@media (max-width:1919px) and (min-width:1690px){.about-page.cta .container{width:1300px;margin:0 auto}}@media (max-width:1690px){.about-page.cta{padding:42px 34px 55px 34px}.about-page.cta .cta_description,.about-page.cta .cta_title{font-size:30px;font-weight:800;letter-spacing:0;line-height:31px;text-align:center}.about-page.cta .cta_image{float:initial;margin:0 0 25px 0}.about-page.cta .wrapper div{width:initial}}@media (min-width:768px) and (max-width:960px){.about-page_services .service{width:50%;margin-bottom:53px;padding:0 15px}.about-page_services{flex-wrap:wrap;justify-content:initial}}@media (min-width:768px) and (max-width:1440px){.about-page_services .service .service_text{font-size:20px}.about-page .companies_images-wrapper{display:flex}.about-page .companies_slider{display:block}.about-page .companies_slider.left{background-image:url(../images/nav_left.svg);background-repeat:no-repeat;width:30px;height:30px;top:25%;left:5px;position:absolute}.about-page .companies_slider.right{background-image:url(../images/nav_right.svg);background-repeat:no-repeat;width:30px;height:30px;top:25%;right:-5px;position:absolute}.about-page .owl-carousel .owl-stage{display:flex;align-items:center}.about-page .companies_images-wrapper .companies_image{width:140px;margin:0}.about-page .companies_images-wrapper{padding:0 20px;margin:0 auto}.about-page .owl-carousel .owl-stage-outer{margin:0 auto}.about-page .owl-carousel.owl-drag .owl-item{display:flex;justify-content:center}.about-page_companies{margin-bottom:55px}.about-page .companies_title{font-size:26px;line-height:28px;margin:0 34px 41px 34px}}@media (max-width:768px){.about-page_slogan{background-image:url(../images/header-image-about-mobile.png);padding:29px 0 40px}.about-page_slogan .wrapper-info .title{font-size:42px;font-weight:800;letter-spacing:0;line-height:40px;margin:0 32px 11px 32px}.about-page_slogan .wrapper-info .description{font-size:26px;letter-spacing:0;line-height:26px;margin:0 32px 225px 32px}.about-page_description .wrapper-info{display:block}.about-page_description .wrapper-info .text:first-child{width:auto;margin-bottom:30px;font-size:24px;letter-spacing:-.2px;line-height:26px}.about-page_description .wrapper-info .text:last-child{width:auto;font-size:24px;font-weight:700;letter-spacing:-.2px;line-height:26px}.about-page_description{padding:35px 33px 40px 33px}.about-page_description .title{font-size:26px;line-height:28px;margin-bottom:15px;text-transform:uppercase}.network-block_features .feature{align-items:center}.feature .feature_count{padding-bottom:0}.network-block_features .feature:nth-child(3) .feature_image{margin-left:15px}.feature:nth-child(2) .feature_count{padding-bottom:30px}.about.feature_image-wrapper{width:75px}.about-page_services .service{width:50%;margin-bottom:53px;padding:0 15px}.about-page_services{flex-wrap:wrap;justify-content:initial}.about-page_what-we-do{padding:35px 33px 40px 33px}.about-page_what-we-do .title{font-size:26px;font-weight:700;line-height:42px;margin-bottom:50px}.about-page_bullets{padding:36px 0 45px;margin:0 33px}.about-page_bullets .bullets{display:block}.about-page_bullets .title{font-size:26px;font-weight:700;letter-spacing:0;line-height:31px;margin-bottom:20px}.about-page_bullets .bullets .bullet{width:100%;margin-bottom:35px;padding-bottom:25px;box-sizing:border-box;border-bottom:1px solid #a0a0a0}.about-page_bullets .bullets .bullet:nth-child(3){border-bottom:none}.about-page_bullets .bullet_description{font-size:20px;letter-spacing:0;line-height:21px;display:none}.about-page_bullets .bullet_title-wrapper .bullet_text{font-size:24px;line-height:24px}.about-page .companies_images-wrapper{display:flex}.about-page .companies_slider.left{background-image:url(../images/nav_left.svg);background-repeat:no-repeat;width:30px;height:30px;top:25%;left:5px;position:absolute}.about-page .companies_slider.right{background-image:url(../images/nav_right.svg);background-repeat:no-repeat;width:30px;height:30px;top:25%;right:-5px;position:absolute}.about-page .owl-carousel .owl-stage{display:flex;align-items:center}.about-page .companies_images-wrapper .companies_image{width:99px;margin:0 auto}.about-page .companies_images-wrapper{padding:0 20px;margin:0 auto;width:90%}.about-page .owl-carousel .owl-stage-outer{margin:0 auto}.about-page .owl-carousel.owl-drag .owl-item{display:flex;justify-content:center}.about-page_companies{margin-bottom:55px}.about-page .companies_title{font-size:26px;line-height:28px;margin:0 34px 41px 34px}.about-page.cta .wrapper div{width:auto;margin:0 34px}.about-page.cta .cta_image{float:none;margin:0 0 25px 0}.about-page.cta .cta_description,.about-page.cta .cta_title{font-size:30px;font-weight:800;line-height:31px;text-align:center}.about-page.cta .cta_btn{height:50px;width:203px}.about-page.cta .cta_btn span{font-size:24px;line-height:47.31px}.about-page.cta .cta_btn img{width:26px}}@media (min-width:425px) and (max-width:650px){.about-page_slogan{background-repeat:round;padding-top:50px}.about-page_slogan .wrapper-info .description{margin:0 45px 245px 45px}.about-page_slogan .wrapper-info .title{margin:0 45px 11px 45px;line-height:48px}.feature:nth-child(2) .feature_count{padding-bottom:0}.network-block_features .feature{justify-content:initial}.network-block_features{width:90%}.about-page_bullets .title{margin-bottom:40px}}@media (min-width:650px) and (max-width:768px){.about-page_slogan{background-repeat:round;padding-top:50px}.about-page_slogan .wrapper-info .description{font-size:40px;line-height:45px;margin:0 45px 375px 90px}.about-page_slogan .wrapper-info .title{margin:0 125px 30px 90px;line-height:56px;font-size:56px}.feature:nth-child(2) .feature_count{padding-bottom:0}.network-block_features .feature{justify-content:initial}.network-block_features{width:80%}.about-page_bullets .title{margin-bottom:40px}.about-page.cta{padding-left:65px;padding-right:65px}}@media (min-width:1440px) and (max-width:1600px){.about-page_slogan .wrapper-info .title{width:700px;font-size:56px;line-height:60px;margin-bottom:20px}.about-page_slogan .wrapper-info .description{font-size:40px;line-height:40px}.about-page_slogan{padding:40px 0 50px}}@media (min-width:1200px) and (max-width:1440px){.about-page_slogan .wrapper-info .title{width:600px;font-size:44px;line-height:50px;margin-bottom:20px}.about-page_slogan .wrapper-info .description{font-size:30px;line-height:40px}.about-page_slogan{padding:40px 0 50px}}@media (min-width:769px) and (max-width:1200px){.about-page_slogan .wrapper-info .title{width:500px;font-size:38px;line-height:45px;margin-bottom:15px}.about-page_slogan .wrapper-info .description{font-size:26px;line-height:30px}.about-page_slogan{padding:30px 0 50px}}@media (max-width:1600px){.about-page_what-we-do{padding:50px 0 40px}.about-page_what-we-do .title{margin-bottom:50px}.about-page_bullets{padding-bottom:80px}}@media (min-width:768px){.bullet_title-wrapper{pointer-events:none}.bullet_description{display:block!important}.bullet_image{transform:rotate(0)!important}}
+@media (min-width: 1400px){
+    .companies_images-wrapper.owl-carousel{
+        display: flex;
+    }
+}
+@media (max-width: 1919px) and (min-width: 1690px){
+    .about-page.cta .container{
+        width: 1300px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1690px) {
+    .about-page.cta{
+        padding: 42px 34px 55px 34px;
+    }
+    .about-page.cta .cta_title, .about-page.cta .cta_description{
+        font-size: 30px;
+        font-weight: 800;
+        letter-spacing: 0;
+        line-height: 31px;
+        text-align: center;
+    }
+    .about-page.cta .cta_image{
+        float: initial;
+        margin: 0 0 25px 0;
+    }
+    .about-page.cta .wrapper div{
+        width: initial;
+    }
+}
+@media (min-width: 768px) and (max-width: 960px) {
+    .about-page_services .service{
+        width: 50%;
+        margin-bottom: 53px;
+        padding: 0 15px;
+    }
+    .about-page_services{
+        flex-wrap: wrap;
+        justify-content: initial;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+    .about-page_services .service .service_text{
+        font-size: 20px;
+    }
+    .about-page .companies_images-wrapper{
+        display: flex;
+    }
+    .about-page .companies_slider{
+        display: block;
+    }
+    .about-page .companies_slider.left{
+        background-image: url("../images/nav_left.svg");
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+        top: 25%;
+        left: 5px;
+        position: absolute;
+    }
+    .about-page .companies_slider.right{
+        background-image: url("../images/nav_right.svg");
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+        top: 25%;
+        right: -5px;
+        position: absolute;
+    }
+    .about-page .owl-carousel .owl-stage{
+        display: flex;
+        align-items: center;
+    }
+    .about-page .companies_images-wrapper .companies_image{
+        width: 140px;
+        margin: 0;
+    }
+    .about-page .companies_images-wrapper{
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+    .about-page .owl-carousel .owl-stage-outer{
+        margin: 0 auto;
+    }
+    .about-page .owl-carousel.owl-drag .owl-item{
+        display: flex;
+        justify-content: center;
+    }
+    .about-page_companies{
+        margin-bottom: 55px;
+    }
+    .about-page .companies_title{
+        font-size: 26px;
+        line-height: 28px;
+        margin: 0 34px 41px 34px;
+    }
+}
+@media (max-width: 768px) {
+    .about-page_slogan{
+        background-image: url("../images/header-image-about-mobile.png");
+        padding: 29px 0 40px;
+    }
+    .about-page_slogan .wrapper-info .title{
+        font-size: 42px;
+        font-weight: 800;
+        letter-spacing: 0;
+        line-height: 40px;
+        margin: 0 32px 11px 32px;
+    }
+    .about-page_slogan .wrapper-info .description{
+        font-size: 26px;
+        letter-spacing: 0;
+        line-height: 26px;
+        margin: 0 32px 225px 32px;
+    }
+    .about-page_description .wrapper-info{
+        display: block;
+    }
+
+    .about-page_description .wrapper-info .text:first-child{
+        width: auto;
+        margin-bottom: 30px;
+        font-size: 24px;
+        letter-spacing: -0.2px;
+        line-height: 26px;
+    }
+    .about-page_description .wrapper-info .text:last-child{
+        width: auto;
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: -0.2px;
+        line-height: 26px;
+    }
+    .about-page_description{
+        padding: 35px 33px 40px 33px;
+    }
+    .about-page_description .title{
+        font-size: 26px;
+        line-height: 28px;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+    }
+    .network-block{
+        /*background-image: url("../images/");*/
+    }
+
+    .network-block_features .feature{
+        align-items: center;
+    }
+    .feature .feature_count{
+        padding-bottom: 0;
+    }
+    .network-block_features .feature:nth-child(3) .feature_image{
+        margin-left: 15px;
+    }
+    .feature:nth-child(2) .feature_count{
+        padding-bottom: 30px;
+    }
+    .about.feature_image-wrapper{
+        width: 75px;
+    }
+    .about-page_services .service{
+        width: 50%;
+        margin-bottom: 53px;
+        padding: 0 15px;
+    }
+    .about-page_services{
+        flex-wrap: wrap;
+        justify-content: initial;
+    }
+    .about-page_what-we-do{
+        padding: 35px 33px 40px 33px;
+    }
+    .about-page_what-we-do .title{
+        font-size: 26px;
+        font-weight: bold;
+        line-height: 42px;
+        margin-bottom: 50px;
+    }
+    .about-page_bullets{
+        padding: 36px 0 45px;
+        margin: 0 33px;
+    }
+    .about-page_bullets .bullets{
+        display: block;
+    }
+    .about-page_bullets .title{
+        font-size: 26px;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 31px;
+        margin-bottom: 20px;
+    }
+
+    .about-page_bullets .bullets .bullet{
+        width: 100%;
+        margin-bottom: 35px;
+        padding-bottom: 25px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #A0A0A0;
+    }
+    .about-page_bullets .bullets .bullet:nth-child(3){
+        border-bottom: none;
+    }
+    .about-page_bullets .bullet_description{
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: 21px;
+        display: none;
+    }
+    .about-page_bullets .bullet_title-wrapper .bullet_text{
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .about-page .companies_images-wrapper{
+        display: flex;
+    }
+
+    .about-page .companies_slider.left{
+        background-image: url("../images/nav_left.svg");
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+        top: 25%;
+        left: 5px;
+        position: absolute;
+    }
+    .about-page .companies_slider.right{
+        background-image: url("../images/nav_right.svg");
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+        top: 25%;
+        right: -5px;
+        position: absolute;
+    }
+    .about-page .owl-carousel .owl-stage{
+        display: flex;
+        align-items: center;
+    }
+    .about-page .companies_images-wrapper .companies_image{
+        width: 99px;
+        margin: 0 auto;
+    }
+    .about-page .companies_images-wrapper{
+        padding: 0 20px;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .about-page .owl-carousel .owl-stage-outer{
+        margin: 0 auto;
+    }
+    .about-page .owl-carousel.owl-drag .owl-item{
+        display: flex;
+        justify-content: center;
+    }
+    .about-page_companies{
+        margin-bottom: 55px;
+    }
+    .about-page .companies_title{
+        font-size: 26px;
+        line-height: 28px;
+        margin: 0 34px 41px 34px;
+    }
+    .about-page.cta .wrapper div{
+        width: auto;
+        margin: 0 34px;
+    }
+    .about-page.cta .cta_image{
+        float: none;
+        margin: 0 0 25px 0;
+    }
+    .about-page.cta .cta_title,
+    .about-page.cta .cta_description{
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 31px;
+        text-align: center;
+    }
+    .about-page.cta .cta_btn{
+        height: 50px;
+        width: 203px;
+    }
+    .about-page.cta .cta_btn span{
+        font-size: 24px;
+        line-height: 47.31px;
+    }
+    .about-page.cta .cta_btn img{
+        width: 26px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 650px)  {
+    .about-page_slogan{
+        background-repeat: round;
+        padding-top: 50px;
+    }
+    .about-page_slogan .wrapper-info .description{
+        margin: 0 45px 245px 45px;
+    }
+    .about-page_slogan .wrapper-info .title{
+        margin: 0 45px 11px 45px;
+        line-height: 48px;
+    }
+    .feature:nth-child(2) .feature_count{
+        padding-bottom: 0;
+    }
+    .network-block_features .feature{
+        justify-content: initial;
+    }
+    .network-block_features{
+        width: 90%;
+    }
+    .about-page_bullets .title{
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 768px)  {
+    .about-page_slogan{
+        background-repeat: round;
+        padding-top: 50px;
+    }
+    .about-page_slogan .wrapper-info .description{
+        font-size: 40px;
+        line-height: 45px;
+        margin: 0 45px 375px 90px;
+    }
+    .about-page_slogan .wrapper-info .title{
+        margin: 0 125px 30px 90px;
+        line-height: 56px;
+        font-size: 56px;
+    }
+    .feature:nth-child(2) .feature_count{
+        padding-bottom: 0;
+    }
+    .network-block_features .feature{
+        justify-content: initial;
+    }
+    .network-block_features{
+        width: 80%;
+    }
+    .about-page_bullets .title{
+        margin-bottom: 40px;
+    }
+    .about-page.cta{
+        padding-left: 65px;
+        padding-right: 65px;
+    }
+}
+@media (min-width: 1440px) and (max-width: 1600px) {
+    .about-page_slogan .wrapper-info .title{
+        width: 700px;
+        font-size: 56px;
+        line-height: 60px;
+        margin-bottom: 20px;
+    }
+    .about-page_slogan .wrapper-info .description{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .about-page_slogan{
+        padding: 40px 0 50px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+    .about-page_slogan .wrapper-info .title{
+        width: 600px;
+        font-size: 44px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .about-page_slogan .wrapper-info .description{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .about-page_slogan{
+        padding: 40px 0 50px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .about-page_slogan .wrapper-info .title{
+        width: 500px;
+        font-size: 38px;
+        line-height: 45px;
+        margin-bottom: 15px;
+    }
+    .about-page_slogan .wrapper-info .description{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .about-page_slogan{
+        padding: 30px 0 50px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .about-page_what-we-do{
+        padding: 50px 0 40px;
+    }
+    .about-page_what-we-do .title{
+        margin-bottom: 50px;
+    }
+    .about-page_bullets{
+        padding-bottom: 80px;
+    }
+}
+
+@media (min-width: 768px) {
+    .bullet_title-wrapper{
+        pointer-events: none;
+    }
+    .bullet_description{
+        display: block !important;
+    }
+    .bullet_image{
+        transform: rotate(0deg) !important;
+    }
+}
