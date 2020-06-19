@@ -3,6 +3,7 @@
     background-image: url("images/BG image.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-x: 50%;
 }
 .sign-up_image{
     display: none;

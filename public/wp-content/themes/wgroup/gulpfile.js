@@ -1,4 +1,6 @@
 const gulp = require('gulp');
+const watch = require('gulp-watch');
+
 const concat = require('gulp-concat');
 // const debug = require('gulp-debug');
 const uglify = require('gulp-uglify-es').default;
@@ -13,13 +15,13 @@ gulp.task('css-compress', function () {
         .pipe(gulp.dest('.'));
 
 });
-gulp.task('css-resp-compress', function () {
-    gulp.src('styles-resp/**/*.css')
-        .pipe(cleanCSS({compatibility: 'ie8'}))
-        .pipe(gulp.dest(function(file){
-            return file.base;
-        }));
-});
+// gulp.task('css-resp-compress', function () {
+//     gulp.src('styles-resp/**/*.css')
+//         .pipe(cleanCSS({compatibility: 'ie8'}))
+//         .pipe(gulp.dest(function(file){
+//             return file.base;
+//         }));
+// });
 gulp.task('js-compress', function () {
     gulp.src('js/*.js')
         .pipe(concat('script.min.js'))
@@ -34,5 +36,10 @@ gulp.task('js-compress', function () {
         }));
 });
 
+// gulp.watch(['js/**/*.js', 'styles/**/*.css', 'js/**/*.css', 'styles-resp/**/*.css'], function(cb) {
+//     // body omitted
+//     cb();
+// }, ['js-compress', 'css-compress']);
 
-gulp.task('default', ['js-compress', 'css-compress', 'css-resp-compress']);
+ gulp.task('default', ['js-compress', 'css-compress']);
+

@@ -1,3 +1,9 @@
+@media (max-width: 1440px){
+    .sign-up{
+        background-size: 135%;
+    }
+}
+
 @media (max-width: 1024px){
     .sign-up_image{
         display: block;
@@ -22,7 +28,6 @@
     .sign-up_form form span input{
         background: none;
     }
-
 }
 @media (max-width: 768px) {
     .sign-up_wrapper{

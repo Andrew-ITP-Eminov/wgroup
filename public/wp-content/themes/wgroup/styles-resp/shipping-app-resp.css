@@ -8,8 +8,11 @@
     .shipping-app_image img{
         width: 85%;
     }
+    .features_image{
+        margin: -67px auto 100px;
+    }
     .features_image img{
-        width: 95%;
+        width: 85%;
     }
     .shipping-app-features .features_bullets .bullet{
         width: auto;

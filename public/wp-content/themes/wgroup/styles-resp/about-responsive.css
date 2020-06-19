@@ -141,10 +141,6 @@
         margin-bottom: 15px;
         text-transform: uppercase;
     }
-    .network-block{
-        /*background-image: url("../images/");*/
-    }
-
     .network-block_features .feature{
         align-items: center;
     }

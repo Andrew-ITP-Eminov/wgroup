@@ -607,6 +607,7 @@
     }
     .network-block {
         padding: 44px 0 20px;
+        background-image: url("../images/network-BG-mobile.png");
     }
 
     .network-block .network-block_features {
