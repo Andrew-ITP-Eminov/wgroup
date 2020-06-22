@@ -38,7 +38,7 @@
                             <img class="slider-block_image" src="<?php the_cfc_field( 'mobile_slider','mobile-slider-image', false, $key ); ?>" alt="">
                         </div>
                         <div class="slider-block_text">
-                            <h2 class="slider-block_title mobile-title-<?php echo $key+1 ?>"><?php the_cfc_field( 'mobile_slider','mobile-slider-title', false, $key ); ?></h2>
+                            <h1 class="slider-block_title mobile-title-<?php echo $key+1 ?>"><?php the_cfc_field( 'mobile_slider','mobile-slider-title', false, $key ); ?></h1>
                             <p class="slider-block_description mobile-description-<?php echo $key+1 ?>"><?php the_cfc_field( 'mobile_slider','mobile-slider-desc', false, $key ); ?></p>
                         </div>
                     </div>
@@ -54,7 +54,7 @@
                                     <img class="slider-block_image" src="<?php the_cfc_field( 'slider','slider-image', false, $key ); ?>" alt="">
                                 </div>
                                 <div class="slider-block_text">
-                                    <h2 class="slider-block_title title-<?php echo $key+1 ?>"><?php the_cfc_field( 'slider','slider-title', false, $key ); ?></h2>
+                                    <h1 class="slider-block_title title-<?php echo $key+1 ?>"><?php the_cfc_field( 'slider','slider-title', false, $key ); ?></h1>
                                     <p class="slider-block_description description-<?php echo $key+1 ?>"><?php the_cfc_field( 'slider','slider-description', false, $key ); ?></p>
                                 </div>
                             </div>
@@ -162,7 +162,7 @@
                         </div>
                         <p class="wconnect_description"><?php the_cfc_field( 'wconnect','wconnect_description' ); ?></p>
                         <?php if( have_rows('wconnect_link') ): while ( have_rows('wconnect_link') ) : the_row(); ?>
-                            <a class="wconnect_link" href="/shipping-app"><?php echo get_sub_field('text'); ?></a>
+                            <a class="wconnect_link" href="/shipping-app/"><?php echo get_sub_field('text'); ?></a>
                         <?php endwhile; endif; ?>
                     </div>
                 </div>

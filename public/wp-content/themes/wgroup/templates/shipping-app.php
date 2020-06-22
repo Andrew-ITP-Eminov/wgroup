@@ -11,22 +11,21 @@
 ?>
 <head>
     <meta charset='utf-8'>
-    <title>Global Ocean Shipping & Air Freight Services | W Group</title>
-    <meta name="description" content="Book sea and air freight services easily with World Logistics Group. Our platform offers you instant quotes, full price transparency and round-the-clock freight tracking with the help of our trucking app." />
-    <meta name="keywords" content="ocean shipping, air freight services, air freight shipping, sea and air shipping services, trucking services" />
+    <title>W Connect: Digital Freight App for Your Logistic Services</title>
+    <meta name="description" content="Simplify your supply chain management using W Connect software. We provide full-service freight forwarding and logistics. Track everything and collaborate with global team of operations and customs experts." />
+    <meta name="keywords" content="w connect platform, w connect app, digital freight forwarder, digital freight app" />
     <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://wlog-group.com/services/" />
+    <link rel="canonical" href="https://wlog-group.com/shipping-app/" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Global Ocean Shipping & Air Freight Services | W Group" />
-    <meta property="og:description" content="Book sea and air freight services easily with World Logistics Group. Our platform offers you instant quotes, full price transparency and round-the-clock freight tracking with the help of our trucking app." />
-    <meta property="og:url" content="https://wlog-group.com/services/" />
+    <meta property="og:title" content="W Connect: Digital Freight App for Your Logistic Services" />
+    <meta property="og:description" content="Simplify your supply chain management using W Connect software. We provide full-service freight forwarding and logistics. Track everything and collaborate with global team of operations and customs experts." />
+    <meta property="og:url" content="https://wlog-group.com/shipping-app/" />
     <meta property="og:site_name" content="World Logistics Group" />
 
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:description" content="Book sea and air freight services easily with World Logistics Group. Our platform offers you instant quotes, full price transparency and round-the-clock freight tracking with the help of our trucking app." />
-    <meta name="twitter:title" content="Global Ocean Shipping & Air Freight Services | W Group" />
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="twitter:description" content="Simplify your supply chain management using W Connect software. We provide full-service freight forwarding and logistics. Track everything and collaborate with global team of operations and customs experts." />
+    <meta name="twitter:title" content="W Connect: Digital Freight App for Your Logistic Services" />
 </head>
 <body>
 <?php get_header(); ?>
